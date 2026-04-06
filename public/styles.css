@@ -78,10 +78,14 @@ nav {
 .hero-bg {
   position: absolute;
   inset: 0;
-  background-image: url("./images/backgrounds/hero-guitarman-grunge.png");
+  background-image: url("data:image/webp;base64,UklGRpoAAABXRUJQVlA4II4AAAAQBQCdASooABsAPxl2rlOsp6QiurzIAZAjCWkAADz4rj8w/DXu2EvubVZvGx//FC+AAP0d7Eyik7ukG99QptgaqojsJU9UYKjCFBap6RiRDQ61PKMlgjeYJLtVyURE5xKYXbm9spIIENJppQtDcBLYYHlofv0ioMfsa0pmYOTcAzFOXeDsAtHtkxYbSAAA");
   background-size: cover;
   background-position: top center;
   filter: brightness(0.45) contrast(1.1);
+  transition: background-image 0.3s ease;
+}
+.hero-bg.loaded {
+  background-image: url("./images/backgrounds/hero-guitarman-grunge.webp");
 }
 
 .hero-bg::after {

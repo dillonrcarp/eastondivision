@@ -30,6 +30,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="./styles.css" />
   <link rel="sitemap" type="application/xml" href="/sitemap.xml" />
+  <link rel="preload" as="image" href="./images/backgrounds/hero-guitarman-grunge.webp" />
 </head>
 <body>
 <!-- Google Tag Manager (noscript) -->
@@ -425,6 +426,12 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <script>
   const obs = new IntersectionObserver(es => es.forEach(e => { if (e.isIntersecting) e.target.classList.add('visible'); }), { threshold: 0.08 });
   document.querySelectorAll('.reveal').forEach(el => obs.observe(el));
+
+  // Swap hero bg to full WebP once loaded
+  const heroBg = document.querySelector('.hero-bg');
+  const heroImg = new Image();
+  heroImg.onload = () => heroBg.classList.add('loaded');
+  heroImg.src = './images/backgrounds/hero-guitarman-grunge.webp';
 
   const navToggle = document.getElementById('nav-toggle');
   const navLinks = document.getElementById('nav-links');
