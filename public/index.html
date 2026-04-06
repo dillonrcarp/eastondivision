@@ -97,6 +97,7 @@
       max-width: none;
       margin: 0;
       min-height: 75vh;
+      min-height: 75svh;
       display: flex;
       flex-direction: column;
       align-items: center;
@@ -441,18 +442,80 @@
     @keyframes heroIn { from { opacity: 0; transform: translateY(28px); } to { opacity: 1; transform: translateY(0); } }
     @keyframes bobble { 0%, 100% { transform: translateX(-50%) translateY(0); } 50% { transform: translateX(-50%) translateY(6px); } }
 
+    /* ── HAMBURGER BUTTON ── */
+    .nav-toggle {
+      display: none;
+      flex-direction: column;
+      justify-content: space-between;
+      width: 28px;
+      height: 20px;
+      background: none;
+      border: none;
+      cursor: pointer;
+      padding: 0;
+      z-index: 201;
+      flex-shrink: 0;
+    }
+    .nav-toggle span {
+      display: block;
+      width: 100%;
+      height: 2px;
+      background: var(--cream);
+      transition: transform 0.3s, opacity 0.3s;
+    }
+    .nav-toggle.open span:nth-child(1) { transform: translateY(9px) rotate(45deg); }
+    .nav-toggle.open span:nth-child(2) { opacity: 0; }
+    .nav-toggle.open span:nth-child(3) { transform: translateY(-9px) rotate(-45deg); }
+
     @media (max-width: 800px) {
       nav { padding: 12px 20px; }
-      .nav-links { gap: 18px; }
+      .nav-toggle { display: flex; }
+      .nav-links {
+        display: none;
+        position: absolute;
+        top: 100%;
+        left: 0; right: 0;
+        flex-direction: column;
+        gap: 0;
+        background: rgba(14,14,14,0.97);
+        backdrop-filter: blur(8px);
+        border-bottom: 1px solid rgba(91,200,192,0.2);
+        padding: 8px 0;
+        list-style: none;
+      }
+      .nav-links.open { display: flex; }
+      .nav-links a { display: block; padding: 14px 24px; font-size: 0.75rem; }
       section { padding: 70px 20px; }
       .about-grid, .epk-grid, .contact-grid { grid-template-columns: 1fr; gap: 40px; }
-      .show-row { grid-template-columns: 70px 1fr; }
-      .show-row .btn { display: none; }
+      .show-row { grid-template-columns: 70px 1fr; grid-template-rows: auto auto; }
+      .show-row .btn { grid-column: 1 / -1; display: flex; width: 100%; margin-top: 4px; }
       .photo-strip img { height: 160px; }
       .merch-grid { grid-template-columns: repeat(2, 1fr); }
       .merch-promo { width: 100%; }
       .form-row { grid-template-columns: 1fr; }
       .setlist-cols { grid-template-columns: 1fr; gap: 40px; }
+      .form-group label { font-size: 0.7rem; }
+      footer { padding: 32px 20px 24px; }
+      .footer-socials { gap: 16px; flex-wrap: wrap; justify-content: center; }
+      .btn { min-height: 44px; display: inline-flex; align-items: center; justify-content: center; }
+    }
+
+    @media (max-width: 600px) {
+      .merch-grid { grid-template-columns: 1fr; }
+      .show-date .day { font-size: 2rem; }
+      .show-venue { font-size: 1.15rem; }
+      .hero-cta { flex-direction: column; align-items: center; }
+      .hero-cta .btn { width: 100%; max-width: 280px; }
+    }
+
+    @media (max-width: 480px) {
+      section { padding: 56px 16px; }
+      .photo-strip img { height: 120px; }
+      footer { padding: 28px 16px 20px; }
+    }
+
+    @media (hover: none) {
+      .photo-strip img:hover { flex: 1; filter: grayscale(30%) contrast(1.08); }
     }
   </style>
 </head>
@@ -467,7 +530,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <a href="#hero" class="nav-logo">
     <img src="./images/logos/eod-white-clean.png" alt="East On Division" />
   </a>
-  <ul class="nav-links">
+  <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+    <span></span><span></span><span></span>
+  </button>
+  <ul class="nav-links" id="nav-links">
     <li><a href="#about">About</a></li>
     <!-- <li><a href="#music">Music</a></li> -->
     <li><a href="#shows">Live</a></li>
@@ -841,6 +907,19 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <script>
   const obs = new IntersectionObserver(es => es.forEach(e => { if (e.isIntersecting) e.target.classList.add('visible'); }), { threshold: 0.08 });
   document.querySelectorAll('.reveal').forEach(el => obs.observe(el));
+
+  const navToggle = document.getElementById('nav-toggle');
+  const navLinks = document.getElementById('nav-links');
+  navToggle.addEventListener('click', () => {
+    const open = navLinks.classList.toggle('open');
+    navToggle.classList.toggle('open', open);
+    navToggle.setAttribute('aria-expanded', String(open));
+  });
+  navLinks.querySelectorAll('a').forEach(a => a.addEventListener('click', () => {
+    navLinks.classList.remove('open');
+    navToggle.classList.remove('open');
+    navToggle.setAttribute('aria-expanded', 'false');
+  }));
 
   let last = 0;
   const nav = document.getElementById('main-nav');
