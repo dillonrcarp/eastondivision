@@ -178,7 +178,7 @@ section { max-width: 1120px; margin: 0 auto; padding: 100px 48px; }
 .about-photos {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
+  grid-template-rows: 3fr 2fr;
   gap: 8px;
   height: 100%;
 }
