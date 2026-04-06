@@ -12,10 +12,10 @@ The arrow is used as the nav logomark. The full logo is used in the hero and foo
 
 ```css
 :root {
-  --teal:     #5bc8c0;   /* primary accent, links, borders, teal stripe */
-  --yellow:   #e8c040;   /* secondary accent, dates, CTAs, yellow stripe */
-  --orange:   #d4853a;   /* tertiary, release types, track numbers, orange stripe */
-  --red:      #c94040;   /* used sparingly, red stripe */
+  --teal:     #68c9ce;   /* primary accent, links, borders, teal stripe */
+  --yellow:   #ffce18;   /* secondary accent, dates, CTAs, yellow stripe */
+  --orange:   #e58924;   /* tertiary, release types, track numbers, orange stripe */
+  --red:      #cf2927;   /* used sparingly, red stripe */
   --dark:     #1e1e1e;   /* section backgrounds */
   --darker:   #141414;   /* page background */
   --charcoal: #2a2a2a;   /* card/cell backgrounds */
