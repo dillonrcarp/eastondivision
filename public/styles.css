@@ -475,6 +475,7 @@ footer img.footer-logo { height: 52px; opacity: 0.9; }
   .show-row { grid-template-columns: 70px 1fr; grid-template-rows: auto auto; }
   .show-row .btn { grid-column: 1 / -1; display: flex; width: 100%; margin-top: 4px; }
   .photo-strip picture { height: 160px; }
+  .photo-strip picture:nth-child(2) img { object-position: left center; }
   .merch-promo { width: 100%; }
   .form-row { grid-template-columns: 1fr; }
   .setlist-cols { grid-template-columns: 1fr; gap: 40px; }
