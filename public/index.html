@@ -378,7 +378,7 @@
     .promo-label { font-size: 0.58rem; letter-spacing: 0.3em; text-transform: uppercase; color: var(--orange); }
     .promo-code { font-size: 0.72rem; letter-spacing: 0.1em; color: var(--cream); }
     .promo-code strong { color: var(--yellow); }
-    .merch-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap: 16px; margin-bottom: 40px; }
+    .merch-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; margin-bottom: 40px; }
     .merch-card { display: block; text-decoration: none; border: 1px solid rgba(91,200,192,0.15); background: rgba(255,255,255,0.02); transition: border-color 0.2s, background 0.2s; overflow: hidden; }
     .merch-card:hover { border-color: var(--teal); background: rgba(91,200,192,0.05); }
     .merch-card-img { width: 100%; aspect-ratio: 1; overflow: hidden; background: rgba(255,255,255,0.04); }
@@ -490,7 +490,6 @@
       .show-row { grid-template-columns: 70px 1fr; grid-template-rows: auto auto; }
       .show-row .btn { grid-column: 1 / -1; display: flex; width: 100%; margin-top: 4px; }
       .photo-strip img { height: 160px; }
-      .merch-grid { grid-template-columns: repeat(2, 1fr); }
       .merch-promo { width: 100%; }
       .form-row { grid-template-columns: 1fr; }
       .setlist-cols { grid-template-columns: 1fr; gap: 40px; }
@@ -501,7 +500,7 @@
     }
 
     @media (max-width: 600px) {
-      .merch-grid { grid-template-columns: 1fr; }
+      .merch-grid { grid-template-columns: repeat(2, 1fr); }
       .show-date .day { font-size: 2rem; }
       .show-venue { font-size: 1.15rem; }
       .hero-cta { flex-direction: column; align-items: center; }
@@ -783,6 +782,14 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           <p class="merch-line">Accessories</p>
           <p class="merch-product">Die Cut Sticker</p>
           <p class="merch-price">$6.99</p>
+        </div>
+      </a>
+      <a href="https://merch.eastondivision.com/listing/east-on-division-grunge-vibe?product=370&variation=6544" class="merch-card" target="_blank" rel="noopener">
+        <div class="merch-card-img"><img src="https://mockup-api.teespring.com/v3/image/frI3pVMTEg0wgiiiijkRaXdTDZw/800/800.jpg" alt="Grunge Vibe Women's Comfort Tee" loading="lazy" /></div>
+        <div class="merch-card-info">
+          <p class="merch-line">Grunge Vibe</p>
+          <p class="merch-product">Women's Comfort Tee</p>
+          <p class="merch-price">from $17.99</p>
         </div>
       </a>
     </div>
