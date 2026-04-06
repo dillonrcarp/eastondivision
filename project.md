@@ -239,3 +239,44 @@ Currently front-end only. Wire up with Cloudflare Pages Forms:
 ## Alternative Architecture
 
 If nightly sync latency is ever a problem (e.g. you want events live immediately after posting), replace the GitHub Action with a Cloudflare Worker that proxies Graph API calls in real time. Frontend fetches from the Worker URL instead of static JSON files. Not necessary at current scale — nightly is fine for a band site.
+## Merch Store
+
+Live at: http://merch.eastondivision.com (Teespring/Spring)
+CNAME: merch -> sites.teespring.com (DNS only, gray cloud)
+
+### Product Catalog (as of Apr 2025)
+
+Two design lines: Classic Vibe Logo, Grunge Vibe
+
+| Design | Product | Price |
+|---|---|---|
+| Classic Vibe Logo | Die Cut Sticker | $6.99 |
+| Classic Vibe Logo | Unisex Premium Pullover Hoodie | $34.99 |
+| Classic Vibe Logo | Women's Flowy Tank Top | $17.99 |
+| Classic Vibe Logo | Classic Crew Neck T-Shirt | $14.99 |
+| Classic Vibe Logo | Women's Classic Tee | $17.99 |
+| Classic Vibe Logo | Pint Glass | $17.99 |
+| Classic Vibe Logo | Kids Premium Tee | $17.99 |
+| Grunge Vibe | Die Cut Sticker | $6.99 |
+| Grunge Vibe | Unisex Premium Pullover Hoodie | $34.99 |
+| Grunge Vibe | Women's Comfort Tee | $17.99 |
+| Grunge Vibe | Women's Flowy Tank Top | $17.99 |
+| Grunge Vibe | Classic Crew Neck T-Shirt | $14.99 |
+| Grunge Vibe | Pint Glass | $17.99 |
+| Grunge Vibe | Mug | $12.99 |
+| EoD Premium Tee | Essential Tee | $33.99 |
+
+### Claude Code Task — Merch Section
+
+1. Use Puppeteer/Playwright to scrape merch.eastondivision.com
+2. For each product extract: name, price, image URL, direct product URL
+3. Write output to public/data/merch.json
+4. Render merch grid on site from merch.json
+5. Each card links directly to Teespring product listing
+6. "Shop All" CTA links to merch.eastondivision.com
+
+### Social Links (confirmed from Spring dashboard)
+- Facebook: http://www.facebook.com/eastondivision
+- Instagram: http://www.instagram.com/eastondivision
+- Twitter: http://www.twitter.com/eastondivision
+- YouTube: http://www.youtube.com/eastondivision
