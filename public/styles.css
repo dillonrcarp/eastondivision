@@ -46,7 +46,7 @@ nav {
   transition: transform 0.3s ease;
 }
 
-.nav-logo img { height: 38px; display: block; }
+.nav-logo img { height: 38px; width: auto; display: block; }
 
 .nav-links { display: flex; gap: 36px; list-style: none; }
 .nav-links a {
@@ -415,7 +415,7 @@ section { max-width: 1120px; margin: 0 auto; padding: 100px 48px; }
 
 /* ── FOOTER ── */
 footer { background: #0e0e0e; border-top: 1px solid rgba(91,200,192,0.15); padding: 48px 48px 32px; display: flex; flex-direction: column; align-items: center; gap: 20px; text-align: center; }
-footer img.footer-logo { height: 52px; opacity: 0.9; }
+footer img.footer-logo { height: 52px; width: auto; opacity: 0.9; }
 .footer-socials { display: flex; align-items: center; gap: 24px; }
 .footer-social-icon { display: flex; align-items: center; color: var(--muted); opacity: 0.38; text-decoration: none; transition: opacity 0.2s, color 0.2s; }
 .footer-social-icon:hover { opacity: 0.75; color: var(--teal); }
