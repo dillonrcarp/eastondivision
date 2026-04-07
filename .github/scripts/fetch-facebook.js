@@ -199,7 +199,7 @@ function renderEventPage(event) {
   <meta name="description" content="${escapeHtml(getMetaDescription(event))}" />
   <link rel="canonical" href="${escapeHtml(eventUrl)}" />
   <link rel="icon" type="image/png" sizes="32x32" href="../favicon-32.png" />
-  <link rel="stylesheet" href="../styles.css?v=5" />
+  <link rel="stylesheet" href="../styles.css?v=6" />
   <script type="application/ld+json">
 ${structuredData}
   </script>
