@@ -4,8 +4,9 @@ const path = require("path");
 const FB_PAGE_TOKEN = process.env.FB_PAGE_TOKEN;
 const FB_PAGE_ID = process.env.FB_PAGE_ID;
 const FB_GRAPH_VERSION = process.env.FB_GRAPH_VERSION || "v25.0";
+const GENERATE_FROM_CACHE = process.argv.includes("--from-cache");
 
-if (!FB_PAGE_TOKEN || !FB_PAGE_ID) {
+if (!GENERATE_FROM_CACHE && (!FB_PAGE_TOKEN || !FB_PAGE_ID)) {
   throw new Error("Missing required env vars: FB_PAGE_TOKEN and FB_PAGE_ID");
 }
 
@@ -76,6 +77,10 @@ function escapeXml(value) {
 }
 
 function toIsoDateTime(value) {
+  if (!value) return "";
+  const normalized = String(value).trim().replace(/([+-]\d{2})(\d{2})$/, "$1:$2");
+  if (!Number.isNaN(new Date(normalized).getTime())) return normalized;
+
   const date = parseDate(value);
   return date ? date.toISOString() : "";
 }
@@ -141,12 +146,12 @@ function getEventStructuredData(event) {
     eventAttendanceMode: "https://schema.org/OfflineEventAttendanceMode",
     url: getEventUrl(event),
     performer: {
-      "@type": "MusicGroup",
+      "@type": "PerformingGroup",
       name: "East On Division",
       url: SITE_URL
     },
     organizer: {
-      "@type": "MusicGroup",
+      "@type": "Organization",
       name: "East On Division",
       url: SITE_URL
     },
@@ -315,6 +320,14 @@ async function fetchPhotos() {
 
 async function main() {
   ensureDataDir();
+
+  if (GENERATE_FROM_CACHE) {
+    const events = fs.existsSync(EVENTS_PATH) ? JSON.parse(fs.readFileSync(EVENTS_PATH, "utf8")) : [];
+    writeEventPages(events);
+    writeSitemap(events);
+    console.log(`Wrote ${events.length} cached event pages to ${EVENTS_DIR}`);
+    return;
+  }
 
   const events = await fetchEvents();
   writeJson(EVENTS_PATH, events);
