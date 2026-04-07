@@ -89,7 +89,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 </section>
 
 <!-- PHOTO STRIP -->
-<div class="photo-strip">
+<div class="photo-strip" id="photo-strip">
   <picture>
     <source srcset="./images/band/live-01-web-480.webp 480w, ./images/band/live-01-web-960.webp 960w, ./images/band/live-01-web.webp 1200w" sizes="(max-width: 800px) 33vw, 34vw" type="image/webp" />
     <img src="./images/band/live-01-web-480.webp" alt="East On Division guitarist" width="1200" height="848" loading="lazy" />
@@ -146,7 +146,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       <div class="section-rule"></div>
       <h2 class="section-title" style="margin-bottom:36px;">Shows</h2>
     </div>
-    <div class="shows-list reveal">
+    <div class="shows-list reveal" id="shows-list">
       <div class="show-row">
         <div class="show-date"><div class="day">25</div><div class="mo">Apr 2026</div></div>
         <div><div class="show-venue">The Firehouse BBQ and Blues</div><div class="show-loc">Dunkirk, IN | Free | ALL AGES</div></div>
@@ -487,6 +487,133 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     nav.style.transform = cur > last && cur > 100 ? 'translateY(-100%)' : 'translateY(0)';
     last = cur;
   });
+
+  const showsList = document.getElementById('shows-list');
+  const photoStrip = document.getElementById('photo-strip');
+
+  function escapeHtml(value) {
+    return String(value)
+      .replace(/&/g, '&amp;')
+      .replace(/</g, '&lt;')
+      .replace(/>/g, '&gt;')
+      .replace(/"/g, '&quot;')
+      .replace(/'/g, '&#39;');
+  }
+
+  function formatEventDate(startTime) {
+    const date = new Date(startTime);
+    if (Number.isNaN(date.getTime())) {
+      return { day: '--', monthYear: 'TBA' };
+    }
+
+    const day = new Intl.DateTimeFormat('en-US', { day: '2-digit' }).format(date);
+    const monthYear = new Intl.DateTimeFormat('en-US', { month: 'short', year: 'numeric' }).format(date);
+    return { day, monthYear };
+  }
+
+  function getShowLocation(event) {
+    const parts = [];
+    const place = event.place || {};
+    const location = place.location || {};
+
+    if (place.name) parts.push(place.name);
+    if (location.city && location.state) {
+      parts.push(`${location.city}, ${location.state}`);
+    } else if (location.city) {
+      parts.push(location.city);
+    } else if (location.state) {
+      parts.push(location.state);
+    } else if (location.country) {
+      parts.push(location.country);
+    }
+
+    return parts.length > 0 ? parts.join(' | ') : 'Details on Facebook';
+  }
+
+  function getEventUrl(event) {
+    if (event.ticket_uri) return event.ticket_uri;
+    if (event.id) return `https://www.facebook.com/events/${encodeURIComponent(event.id)}/`;
+    return '';
+  }
+
+  function renderShows(events) {
+    if (!showsList || !Array.isArray(events)) return;
+
+    if (events.length === 0) {
+      showsList.innerHTML = '<p class="show-empty">No upcoming shows. Check back soon.</p>';
+      return;
+    }
+
+    const rows = events.slice(0, 8).map((event) => {
+      const date = formatEventDate(event.start_time);
+      const eventUrl = getEventUrl(event);
+      const ctaLabel = event.ticket_uri ? 'Tickets' : 'RSVP';
+      const action = eventUrl
+        ? `<a href="${escapeHtml(eventUrl)}" target="_blank" rel="noopener" class="btn">${ctaLabel}</a>`
+        : '<span class="btn btn-disabled">Details Soon</span>';
+
+      return `
+        <div class="show-row">
+          <div class="show-date"><div class="day">${escapeHtml(date.day)}</div><div class="mo">${escapeHtml(date.monthYear)}</div></div>
+          <div><div class="show-venue">${escapeHtml(event.name || 'Upcoming Show')}</div><div class="show-loc">${escapeHtml(getShowLocation(event))}</div></div>
+          ${action}
+        </div>
+      `;
+    }).join('');
+
+    showsList.innerHTML = rows;
+  }
+
+  function pickLargestImage(images) {
+    if (!Array.isArray(images) || images.length === 0) return null;
+    return images.slice().sort((a, b) => (b.width || 0) - (a.width || 0))[0];
+  }
+
+  function renderPhotos(photos) {
+    if (!photoStrip || !Array.isArray(photos) || photos.length === 0) return;
+
+    const markup = photos
+      .map((photo) => {
+        const image = pickLargestImage(photo.images);
+        if (!image || !image.source) return '';
+        const alt = photo.name || 'East On Division live photo';
+        return `
+          <picture>
+            <img src="${escapeHtml(image.source)}" alt="${escapeHtml(alt)}" loading="lazy" />
+          </picture>
+        `;
+      })
+      .filter(Boolean)
+      .slice(0, 5)
+      .join('');
+
+    if (markup) {
+      photoStrip.innerHTML = markup;
+    }
+  }
+
+  async function loadContent() {
+    try {
+      const [eventsRes, photosRes] = await Promise.all([
+        fetch('/data/events.json'),
+        fetch('/data/photos.json')
+      ]);
+
+      if (eventsRes.ok) {
+        const events = await eventsRes.json();
+        renderShows(events);
+      }
+
+      if (photosRes.ok) {
+        const photos = await photosRes.json();
+        renderPhotos(photos);
+      }
+    } catch (err) {
+      console.warn('Live content fetch failed, using fallback content.', err);
+    }
+  }
+
+  loadContent();
 
   window.formspree = window.formspree || function () { (formspree.q = formspree.q || []).push(arguments); };
   formspree('initForm', { formElement: '#contact-form', formId: 'mdapygbo' });

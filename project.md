@@ -2,20 +2,20 @@
 
 ## Project Overview
 
-Static band website for East On Division (Muncie, IN). Facebook Page acts as the content layer for events and photos. GitHub Actions syncs that content to static JSON files nightly. Cloudflare Pages serves the site. No CMS, no backend, no server to maintain.
+Static band website for East On Division (Muncie, IN). Facebook Page acts as the content layer for events. GitHub Actions syncs that content to static JSON files nightly. Cloudflare Pages serves the site. No CMS, no backend, no server to maintain.
 
 ## Architecture
 
 ```
 Facebook Page (content input)
     → GitHub Action (nightly cron)
-        → fetches events + photos from Graph API
-            → writes public/data/events.json + photos.json
+        → fetches events from Graph API
+            → writes public/data/events.json
                 → commits to main
                     → Cloudflare Pages auto-deploys
 ```
 
-Content workflow for the band: post an event on Facebook, it appears on the site the next morning. Upload photos to the Facebook page, they show up in the photo strip overnight. No logins, no CMS, no code.
+Content workflow for the band: post an event on Facebook, it appears on the site the next morning. No logins, no CMS, no code.
 
 Design/feature changes: edit locally in VS Code, push to GitHub, deploys in ~60 seconds.
 
@@ -26,7 +26,7 @@ Design/feature changes: edit locally in VS Code, push to GitHub, deploys in ~60 
 | Static hosting | Cloudflare Pages | Free tier, auto-deploys from GitHub |
 | Domain | Already owned | Point nameservers to Cloudflare |
 | Content sync | GitHub Actions | Nightly cron, writes static JSON |
-| Facebook data | Graph API v19+ | Page events + photos |
+| Facebook data | Graph API v25+ | Page events required; photos optional |
 | Version control | GitHub | Source of truth, triggers deploys |
 | Build tooling | None | Single HTML file, vanilla JS |
 
@@ -45,7 +45,7 @@ eastondivision/
 │   │   └── photo3.jpg          # Fallback until FB photos populate
 │   └── data/
 │       ├── events.json         # Written by GitHub Action
-│       └── photos.json         # Written by GitHub Action
+│       └── photos.json         # Optional; fallback photo strip remains if empty
 ├── .github/
 │   └── workflows/
 │       └── sync-facebook.yml   # Nightly sync action
@@ -81,7 +81,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Fetch Facebook events and photos
+      - name: Fetch Facebook events
         env:
           FB_PAGE_TOKEN: ${{ secrets.FB_PAGE_TOKEN }}
           FB_PAGE_ID: ${{ secrets.FB_PAGE_ID }}
@@ -104,7 +104,7 @@ File: `.github/scripts/fetch-facebook.js`
 const fs = require('fs');
 
 const { FB_PAGE_TOKEN, FB_PAGE_ID } = process.env;
-const BASE = 'https://graph.facebook.com/v19.0';
+const BASE = 'https://graph.facebook.com/v25.0';
 
 async function fetchEvents() {
   const fields = 'name,start_time,place,cover,ticket_uri,description';
@@ -128,8 +128,10 @@ async function fetchPhotos() {
   console.log(`Wrote ${(data.data || []).length} photos`);
 }
 
-Promise.all([fetchEvents(), fetchPhotos()]).catch(console.error);
+fetchEvents().catch(console.error);
 ```
+
+Photos are optional for the current implementation. If the photos edge fails, keep the static photo strip in place and do not block the event sync.
 
 ## Frontend Data Integration
 
@@ -186,14 +188,14 @@ GET https://graph.facebook.com/{page-name}?access_token={token}
 ### Exchange short-lived token for long-lived page token
 ```
 Step 1 — get long-lived user token:
-GET https://graph.facebook.com/v19.0/oauth/access_token
+GET https://graph.facebook.com/v25.0/oauth/access_token
   ?grant_type=fb_exchange_token
   &client_id={app_id}
   &client_secret={app_secret}
   &fb_exchange_token={short_lived_user_token}
 
 Step 2 — get page token from long-lived user token:
-GET https://graph.facebook.com/v19.0/me/accounts?access_token={long_lived_user_token}
+GET https://graph.facebook.com/v25.0/me/accounts?access_token={long_lived_user_token}
 ```
 Page tokens generated from a long-lived user token never expire.
 

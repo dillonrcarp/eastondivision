@@ -356,11 +356,13 @@ section { max-width: 1120px; margin: 0 auto; padding: 100px 48px; }
 .shows-list { margin-top: 8px; }
 .show-row { display: grid; grid-template-columns: 90px 1fr auto; align-items: center; gap: 28px; padding: 22px 0; border-bottom: 1px solid rgba(255,255,255,0.05); }
 .show-row:first-child { border-top: 1px solid rgba(255,255,255,0.05); }
+.show-empty { font-size: 0.8rem; letter-spacing: 0.1em; color: var(--muted); border-top: 1px solid rgba(255,255,255,0.05); border-bottom: 1px solid rgba(255,255,255,0.05); padding: 22px 0; text-transform: uppercase; }
 .show-date { text-align: center; }
 .show-date .day { font-family: 'Bebas Neue', sans-serif; font-size: 2.6rem; line-height: 1; color: var(--yellow); }
 .show-date .mo { font-size: 0.6rem; letter-spacing: 0.2em; text-transform: uppercase; color: var(--muted); }
 .show-venue { font-family: 'Bebas Neue', sans-serif; font-size: 1.4rem; letter-spacing: 0.05em; color: var(--cream); }
 .show-loc { font-size: 0.7rem; letter-spacing: 0.12em; color: var(--muted); margin-top: 2px; }
+.btn-disabled { border-color: rgba(255,255,255,0.25); color: var(--muted); pointer-events: none; }
 
 /* ── MERCH ── */
 .merch-note { font-family: 'Playfair Display', serif; font-style: italic; font-size: 1rem; color: var(--muted); margin-bottom: 28px; }
