@@ -110,6 +110,7 @@ nav {
 
 .hero-logo-img {
   width: min(480px, 80vw);
+  height: auto;
   filter: drop-shadow(0 0 40px rgba(91,200,192,0.3));
 }
 
