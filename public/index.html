@@ -506,8 +506,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       return { day: '--', monthYear: 'TBA' };
     }
 
-    const day = new Intl.DateTimeFormat('en-US', { day: '2-digit' }).format(date);
-    const monthYear = new Intl.DateTimeFormat('en-US', { month: 'short', year: 'numeric' }).format(date);
+    const day = new Intl.DateTimeFormat('en-US', { day: '2-digit', timeZone: 'America/Indiana/Indianapolis' }).format(date);
+    const monthYear = new Intl.DateTimeFormat('en-US', { month: 'short', year: 'numeric', timeZone: 'America/Indiana/Indianapolis' }).format(date);
     return { day, monthYear };
   }
 
@@ -536,6 +536,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     return '';
   }
 
+  function getEventPageUrl(event) {
+    return event.id ? `/events/${encodeURIComponent(event.id)}.html` : '';
+  }
+
   function renderShows(events) {
     if (!showsList || !Array.isArray(events)) return;
 
@@ -547,6 +551,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     const rows = events.slice(0, 8).map((event) => {
       const date = formatEventDate(event.start_time);
       const eventUrl = getEventUrl(event);
+      const eventPageUrl = getEventPageUrl(event);
+      const eventTitle = escapeHtml(event.name || 'Upcoming Show');
       const ctaLabel = event.ticket_uri ? 'Tickets' : 'RSVP';
       const action = eventUrl
         ? `<a href="${escapeHtml(eventUrl)}" target="_blank" rel="noopener" class="btn">${ctaLabel}</a>`
@@ -555,7 +561,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       return `
         <div class="show-row">
           <div class="show-date"><div class="day">${escapeHtml(date.day)}</div><div class="mo">${escapeHtml(date.monthYear)}</div></div>
-          <div><div class="show-venue">${escapeHtml(event.name || 'Upcoming Show')}</div><div class="show-loc">${escapeHtml(getShowLocation(event))}</div></div>
+          <div><div class="show-venue">${eventPageUrl ? `<a href="${escapeHtml(eventPageUrl)}" class="show-venue-link">${eventTitle}</a>` : eventTitle}</div><div class="show-loc">${escapeHtml(getShowLocation(event))}</div></div>
           ${action}
         </div>
       `;

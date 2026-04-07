@@ -361,8 +361,16 @@ section { max-width: 1120px; margin: 0 auto; padding: 100px 48px; }
 .show-date .day { font-family: 'Bebas Neue', sans-serif; font-size: 2.6rem; line-height: 1; color: var(--yellow); }
 .show-date .mo { font-size: 0.6rem; letter-spacing: 0.2em; text-transform: uppercase; color: var(--muted); }
 .show-venue { font-family: 'Bebas Neue', sans-serif; font-size: 1.4rem; letter-spacing: 0.05em; color: var(--cream); }
+.show-venue-link { color: inherit; text-decoration: none; }
+.show-venue-link:hover { color: var(--teal); }
 .show-loc { font-size: 0.7rem; letter-spacing: 0.12em; color: var(--muted); margin-top: 2px; }
 .btn-disabled { border-color: rgba(255,255,255,0.25); color: var(--muted); pointer-events: none; }
+
+.event-page { max-width: 760px; min-height: 100vh; display: flex; flex-direction: column; justify-content: center; }
+.event-page-date { font-family: 'Playfair Display', serif; font-style: italic; font-size: 1.2rem; color: var(--yellow); margin: 18px 0 10px; }
+.event-page-location { font-size: 0.78rem; letter-spacing: 0.14em; color: var(--teal); text-transform: uppercase; margin-bottom: 28px; }
+.event-page-description { font-family: 'Playfair Display', serif; font-size: 1.05rem; line-height: 1.8; color: var(--muted); margin-bottom: 32px; }
+.event-page-actions { display: flex; gap: 14px; flex-wrap: wrap; }
 
 /* ── MERCH ── */
 .merch-note { font-family: 'Playfair Display', serif; font-style: italic; font-size: 1rem; color: var(--muted); margin-bottom: 28px; }

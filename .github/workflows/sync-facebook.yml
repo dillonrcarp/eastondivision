@@ -29,6 +29,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add public/data/events.json public/data/photos.json
+          git add public/data/events.json public/data/photos.json public/sitemap.xml
+          git add -A public/events/
           git diff --cached --quiet || git commit -m "chore: sync Facebook content"
           git push

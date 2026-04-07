@@ -10,7 +10,7 @@ Static band website for East On Division (Muncie, IN). Facebook Page acts as the
 Facebook Page (content input)
     → GitHub Action (nightly cron)
         → fetches events from Graph API
-            → writes public/data/events.json
+            → writes public/data/events.json + public/events/*.html + sitemap.xml
                 → commits to main
                     → Cloudflare Pages auto-deploys
 ```
@@ -43,9 +43,11 @@ eastondivision/
 │   │   ├── photo1.jpg
 │   │   ├── photo2.jpg
 │   │   └── photo3.jpg          # Fallback until FB photos populate
-│   └── data/
+│   ├── data/
 │       ├── events.json         # Written by GitHub Action
 │       └── photos.json         # Optional; fallback photo strip remains if empty
+│   └── events/
+│       └── {event-id}.html     # Generated event detail pages with JSON-LD
 ├── .github/
 │   └── workflows/
 │       └── sync-facebook.yml   # Nightly sync action
@@ -155,6 +157,8 @@ async function loadContent() {
 ```
 
 Both renders are non-blocking. Failures fall back gracefully — shows section displays a static message, photo strip keeps hardcoded fallback images.
+
+The sync script also generates one static event detail page per upcoming event at `public/events/{event-id}.html`. Each page includes visible show details and `schema.org/Event` JSON-LD for Google event discovery. The script updates `public/sitemap.xml` with those event URLs on every sync.
 
 ### renderShows(events)
 
