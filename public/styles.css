@@ -78,14 +78,10 @@ nav {
 .hero-bg {
   position: absolute;
   inset: 0;
-  background-image: url("data:image/webp;base64,UklGRpoAAABXRUJQVlA4II4AAAAQBQCdASooABsAPxl2rlOsp6QiurzIAZAjCWkAADz4rj8w/DXu2EvubVZvGx//FC+AAP0d7Eyik7ukG99QptgaqojsJU9UYKjCFBap6RiRDQ61PKMlgjeYJLtVyURE5xKYXbm9spIIENJppQtDcBLYYHlofv0ioMfsa0pmYOTcAzFOXeDsAtHtkxYbSAAA");
+  background-image: url("./images/backgrounds/hero-guitarman-grunge-960.webp");
   background-size: cover;
   background-position: top center;
   filter: brightness(0.45) contrast(1.1);
-  transition: background-image 0.3s ease;
-}
-.hero-bg.loaded {
-  background-image: url("./images/backgrounds/hero-guitarman-grunge.webp");
 }
 
 .hero-bg::after {
@@ -93,6 +89,12 @@ nav {
   position: absolute;
   inset: 0;
   background: linear-gradient(to top, rgba(20,20,20,1) 0%, rgba(20,20,20,0.3) 60%, transparent 100%);
+}
+
+@media (min-width: 961px) {
+  .hero-bg {
+    background-image: url("./images/backgrounds/hero-guitarman-grunge-1600.webp");
+  }
 }
 
 .hero-content {
@@ -417,7 +419,13 @@ footer img.footer-logo { height: 52px; opacity: 0.9; }
 .footer-socials { display: flex; align-items: center; gap: 24px; }
 .footer-social-icon { display: flex; align-items: center; color: var(--muted); opacity: 0.38; text-decoration: none; transition: opacity 0.2s, color 0.2s; }
 .footer-social-icon:hover { opacity: 0.75; color: var(--teal); }
-.footer-copy { font-size: 0.58rem; letter-spacing: 0.18em; color: var(--muted); opacity: 0.3; }
+.footer-copy {
+  font-size: 0.7rem;
+  letter-spacing: 0.14em;
+  color: var(--muted);
+}
+.footer-copy a { color: inherit; }
+.footer-credit { font-size: 0.7rem; }
 
 /* ── REVEAL ── */
 .reveal { opacity: 0; transform: translateY(20px); transition: opacity 0.7s ease, transform 0.7s ease; }
