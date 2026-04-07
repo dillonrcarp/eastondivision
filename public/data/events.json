@@ -1,1 +1,46 @@
-[]
+[
+  {
+    "id": "989131186879527",
+    "name": "East on Division @ The Firehouse BBQ and Blues in Dunkirk, IN",
+    "description": "East on Division will be playing live music at The Firehouse BBQ and Blues in Dunkirk, Indiana on Saturday, April 25th from 6:30 until 9:30pm. \n\nThis is an ALL AGES SHOW! Come enjoy the nice weather outside with some delicious BBQ, cold drinks, and toe-tapping blues and classic rock.",
+    "start_time": "2026-04-25T18:30:00-0400",
+    "end_time": "2026-04-25T21:30:00-0400",
+    "ticket_uri": null,
+    "cover": {
+      "offset_x": 50,
+      "offset_y": 35,
+      "source": "https://scontent-sin6-3.xx.fbcdn.net/v/t39.30808-6/661375789_1256754256629346_2883259063066140405_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=478c00&_nc_ohc=wPwBIn_vboAQ7kNvwEgdYZK&_nc_oc=AdqtsuHWujOP5avpdXiBOv0MgeFNWJyUC7HFXM-HAVH-PbpAmm3ac2bgAF5xtWRc5-U&_nc_zt=23&_nc_ht=scontent-sin6-3.xx&edm=ABTKTjYEAAAA&_nc_gid=53pB_INn6twUlGKnOF1duw&_nc_tpa=Q5bMBQHwfJlseXX2LMxS3LeK1fxBahmfy7GHfKiB4y7G-ChMNvy1qv0WHgJdSVouETuu6flZju3mreo4fQ&oh=00_Af3h9hXUpu12-VXMaDOMARZhn6XDtT58rHp2g8nZX7rjCQ&oe=69DA6104",
+      "id": "1256754253296013"
+    },
+    "place": {
+      "name": "The Firehouse BBQ and Blues Dunkirk"
+    }
+  },
+  {
+    "id": "1287198373344724",
+    "name": "East on Division @ The Firehouse BBQ and Blues | Dunkirk, IN",
+    "description": "East on Division will be playing live music at The Firehouse BBQ and Blues in Dunkirk, Indiana on Saturday, June 27th from 6:30 until 9:30pm.\n\nThis is an ALL AGES SHOW! Come enjoy the nice weather outside with some delicious BBQ, cold drinks, and toe-tapping blues and classic rock.",
+    "start_time": "2026-06-27T18:30:00-0400",
+    "end_time": "2026-06-27T21:30:00-0400",
+    "ticket_uri": null,
+    "cover": {
+      "offset_x": 50,
+      "offset_y": 30,
+      "source": "https://scontent-sin11-2.xx.fbcdn.net/v/t39.30808-6/659716683_1256756996629072_8783742500472811553_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=478c00&_nc_ohc=3oAhUAbSo8gQ7kNvwF9VykG&_nc_oc=Ado7ZpssbrA5D0fpevJES7MsYD-dMJOllUcoxVJYWPTNVAWh7zold_4czMJFOqFHt44&_nc_zt=23&_nc_ht=scontent-sin11-2.xx&edm=ABTKTjYEAAAA&_nc_gid=53pB_INn6twUlGKnOF1duw&_nc_tpa=Q5bMBQGKgYWtBGVARvW_T3rnlbtHGb7Ye-_FbB3GtpDBTVbsT_uMdBM-2ViVk3T8_JLm7q-HNdcieoZY2Q&oh=00_Af3c5giC8Br-0giY_nObTs5YFXgQoCiz2qsjjmU3ODuQeQ&oe=69DA3E06",
+      "id": "1256756993295739"
+    },
+    "place": {
+      "name": "The Firehouse BBQ and Blues Dunkirk",
+      "location": {
+        "city": "Dunkirk",
+        "country": "United States",
+        "latitude": 40.3741,
+        "longitude": -85.20939,
+        "state": "IN",
+        "street": "126 East Commerce Street",
+        "zip": "47336"
+      },
+      "id": "248532295015293"
+    }
+  }
+]
