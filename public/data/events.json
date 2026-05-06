@@ -9,7 +9,7 @@
     "cover": {
       "offset_x": 50,
       "offset_y": 30,
-      "source": "https://scontent-iad3-1.xx.fbcdn.net/v/t39.30808-6/663353208_1259475813023857_4397188551016558413_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=478c00&_nc_ohc=6vK4z8wOhNQQ7kNvwFGcK9l&_nc_oc=Adpbxl6UxD3MFJcNS_XaV5zTaLV4NeuJT0jpvvb2aCJ6XlOUW8ywLh9zsvx7eBIUZ5g&_nc_zt=23&_nc_ht=scontent-iad3-1.xx&edm=ABTKTjYEAAAA&_nc_gid=ga8sn-o9H6P1Lb4AKVWCFQ&_nc_tpa=Q5bMBQF55EEP0lB3WXfr-VwdhdQSmssibTL23xrjACR4FMiW76HfKOxgItUfDYqDic1dbf6MZt4I2K3UEw&oh=00_Af5Y3uqI26Gk5SEquoe0TpwhD6raeJMiOcW1xSDYd-eDEQ&oe=6A00F517",
+      "source": "https://scontent-lga3-3.xx.fbcdn.net/v/t39.30808-6/663353208_1259475813023857_4397188551016558413_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=478c00&_nc_ohc=6vK4z8wOhNQQ7kNvwETQniu&_nc_oc=Adr_5DSPB1IDdR_8ROxjuHtWJfAU2bkueZGb4R7xU1_KRiDficQGktLGWHWzZeZoPEo&_nc_zt=23&_nc_ht=scontent-lga3-3.xx&edm=ABTKTjYEAAAA&_nc_gid=d2mmCUV288l2k93m_SPhVg&_nc_tpa=Q5bMBQHQfJ3GWLE5ZwSrCKZz_N-uyMUECo7BegHAnESU-esXvZ7MmWiWYafyt6tSSGARsMXY9r4MxYqMMg&oh=00_Af549gHM25ZgvLDZHUw_wFF-ivK7KRIWuZKr5fIqHJWSDQ&oe=6A019DD7",
       "id": "1259475806357191"
     },
     "place": {
@@ -35,7 +35,7 @@
     "cover": {
       "offset_x": 50,
       "offset_y": 30,
-      "source": "https://scontent-iad3-1.xx.fbcdn.net/v/t39.30808-6/659716683_1256756996629072_8783742500472811553_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=478c00&_nc_ohc=gFFn-iomxYkQ7kNvwEm06fW&_nc_oc=AdrpSrXu3V_NR88Ln2p1H3jeWaxDAvGJR0shxFvLpxpDgS0eB5C_b7CRT43nUAhCkqA&_nc_zt=23&_nc_ht=scontent-iad3-1.xx&edm=ABTKTjYEAAAA&_nc_gid=ga8sn-o9H6P1Lb4AKVWCFQ&_nc_tpa=Q5bMBQFc1KpV9qZw5dCoM3K61GPa2ckZQ44fcVTUt-R8fXQSFPU056m-3uJVEjS3FdyPwSKzw9thPaVuOQ&oh=00_Af4crr7V6272q5N6m_SyLPkPs7uEiMtyq-xqJ0KSUXkpxg&oe=6A00EA06",
+      "source": "https://scontent-lga3-2.xx.fbcdn.net/v/t39.30808-6/659716683_1256756996629072_8783742500472811553_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=478c00&_nc_ohc=gFFn-iomxYkQ7kNvwEUxW36&_nc_oc=AdpwjVJgpaLS9YKlWXlqa5rROPX9Mz-7DgMhQaImyYSx_E4XwhPzQEQ3sCXGdHvcjgg&_nc_zt=23&_nc_ht=scontent-lga3-2.xx&edm=ABTKTjYEAAAA&_nc_gid=d2mmCUV288l2k93m_SPhVg&_nc_tpa=Q5bMBQGZJc0o1Pz5YqYCMvLHK_1vlBZvMUSycC9MJRoC3LQRNYkan7hIxKW4k95OF3jZ3Nv8uIrtumupsw&oh=00_Af52Te4PSRqdtvPNir3WxMQnC4daYhvKkUy34zFB9Cfhdg&oe=6A0192C6",
       "id": "1256756993295739"
     },
     "place": {
@@ -50,6 +50,40 @@
         "zip": "47336"
       },
       "id": "248532295015293"
+    }
+  },
+  {
+    "id": "1308001694629719",
+    "name": "East on Division @ The Firehouse BBQ and Blues in Dunkirk, IN",
+    "description": "East on Division will be playing live music at The Firehouse BBQ and Blues in Dunkirk, Indiana on Saturday, August 22 from 6:30 until 9:30pm.\n\nThis is an ALL AGES SHOW! Come enjoy the nice weather outside with some delicious BBQ, cold drinks, and toe-tapping blues and classic rock.",
+    "start_time": "2026-08-22T18:30:00-0400",
+    "end_time": "2026-08-22T21:30:00-0400",
+    "ticket_uri": null,
+    "cover": {
+      "offset_x": 50,
+      "offset_y": 30,
+      "source": "https://scontent-lga3-2.xx.fbcdn.net/v/t39.30808-6/690493249_1282539560717482_3718402958846876266_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=478c00&_nc_ohc=VUvVcdTN2TEQ7kNvwFAhiNH&_nc_oc=AdoOJ1wN5FDJq1pWnMwnHQuzM9uC49wlJLsBsyWeQvxgEkzHCt7AhYCSx2_hGzKkuI8&_nc_zt=23&_nc_ht=scontent-lga3-2.xx&edm=ABTKTjYEAAAA&_nc_gid=d2mmCUV288l2k93m_SPhVg&_nc_tpa=Q5bMBQEFE6_6T9BlAHEzv9IZNVE4veKiHjP6mz1xwCN4PBVsexIlgLn5IGQsR-c4GGioOUdZhQf4Brzz3g&oh=00_Af7NA95Bi9VXafkrQ-uSmyuUGDSxvWeithDHf-GPX3EI5w&oe=6A018F48",
+      "id": "1282539557384149"
+    },
+    "place": {
+      "name": "The Firehouse BBQ and Blues Dunkirk"
+    }
+  },
+  {
+    "id": "1931531124214759",
+    "name": "East on Division @ The Firehouse BBQ and Blues in Dunkirk, IN",
+    "description": "East on Division will be playing live music at The Firehouse BBQ and Blues in Dunkirk, Indiana on Saturday, October 3 from 6:30 until 9:30pm.\n\nThis is an ALL AGES SHOW! Come enjoy the nice weather outside with some delicious BBQ, cold drinks, and toe-tapping blues and classic rock.",
+    "start_time": "2026-10-03T18:30:00-0400",
+    "end_time": "2026-10-03T21:30:00-0400",
+    "ticket_uri": null,
+    "cover": {
+      "offset_x": 50,
+      "offset_y": 30,
+      "source": "https://scontent-lga3-1.xx.fbcdn.net/v/t39.30808-6/690340513_1282539997384105_7205844157646737556_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=478c00&_nc_ohc=8RoqL2ZafUMQ7kNvwElP4LF&_nc_oc=AdqrHTjEmZaHJ49IU3bDwbf-0Xvb_4lIXghX8555KXRZcecqcphJwHwdSLZWSoNFxjU&_nc_zt=23&_nc_ht=scontent-lga3-1.xx&edm=ABTKTjYEAAAA&_nc_gid=d2mmCUV288l2k93m_SPhVg&_nc_tpa=Q5bMBQHczcX8MfxNoKvAoGN8JHVBL0BsWt9l6idZ8UjrD_rpVmA4HjjEmEtMnHWHPqxyeJfcIKlLkCW3FA&oh=00_Af65mVtIPW7LAyjudSTIFLsGD6VhtlNeB3Svo9m2-bP1iQ&oe=6A017206",
+      "id": "1282539990717439"
+    },
+    "place": {
+      "name": "The Firehouse BBQ and Blues Dunkirk"
     }
   }
 ]
