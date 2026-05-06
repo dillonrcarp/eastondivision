@@ -354,7 +354,7 @@ section { max-width: 1120px; margin: 0 auto; padding: 100px 48px; }
 
 /* ── SHOWS ── */
 .shows-list { margin-top: 8px; }
-.show-row { display: grid; grid-template-columns: 110px 1fr auto; align-items: center; gap: 28px; padding: 22px 0; border-bottom: 1px solid rgba(255,255,255,0.05); }
+.show-row { display: grid; grid-template-columns: 130px 1fr auto; align-items: center; gap: 28px; padding: 22px 0; border-bottom: 1px solid rgba(255,255,255,0.05); }
 .show-row:first-child { border-top: 1px solid rgba(255,255,255,0.05); }
 .show-empty { font-size: 0.8rem; letter-spacing: 0.1em; color: var(--muted); border-top: 1px solid rgba(255,255,255,0.05); border-bottom: 1px solid rgba(255,255,255,0.05); padding: 22px 0; text-transform: uppercase; }
 .show-date { text-align: center; }
