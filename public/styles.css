@@ -354,11 +354,11 @@ section { max-width: 1120px; margin: 0 auto; padding: 100px 48px; }
 
 /* ── SHOWS ── */
 .shows-list { margin-top: 8px; }
-.show-row { display: grid; grid-template-columns: 90px 1fr auto; align-items: center; gap: 28px; padding: 22px 0; border-bottom: 1px solid rgba(255,255,255,0.05); }
+.show-row { display: grid; grid-template-columns: 110px 1fr auto; align-items: center; gap: 28px; padding: 22px 0; border-bottom: 1px solid rgba(255,255,255,0.05); }
 .show-row:first-child { border-top: 1px solid rgba(255,255,255,0.05); }
 .show-empty { font-size: 0.8rem; letter-spacing: 0.1em; color: var(--muted); border-top: 1px solid rgba(255,255,255,0.05); border-bottom: 1px solid rgba(255,255,255,0.05); padding: 22px 0; text-transform: uppercase; }
 .show-date { text-align: center; }
-.show-date .day { font-family: 'Bebas Neue', sans-serif; font-size: 2.6rem; line-height: 1; color: var(--yellow); }
+.show-date .day { font-family: 'Bebas Neue', sans-serif; font-size: 2rem; line-height: 1; color: var(--yellow); white-space: nowrap; }
 .show-date .mo { font-size: 0.6rem; letter-spacing: 0.2em; text-transform: uppercase; color: var(--muted); }
 .show-venue { font-family: 'Bebas Neue', sans-serif; font-size: 1.4rem; letter-spacing: 0.05em; color: var(--cream); }
 .show-venue-link,
@@ -504,7 +504,7 @@ footer img.footer-logo { height: 52px; width: auto; opacity: 0.9; }
   section { padding: 70px 20px; }
   .about-grid, .epk-grid, .contact-grid { grid-template-columns: 1fr; gap: 40px; }
   .call-us-btn { display: inline-flex; }
-  .show-row { grid-template-columns: 70px 1fr; grid-template-rows: auto auto; }
+  .show-row { grid-template-columns: 90px 1fr; grid-template-rows: auto auto; }
   .show-row .btn { grid-column: 1 / -1; display: flex; width: 100%; margin-top: 4px; }
   .photo-strip picture { height: 160px; }
   .photo-strip picture:nth-child(2) img { object-position: left center; }
@@ -519,7 +519,7 @@ footer img.footer-logo { height: 52px; width: auto; opacity: 0.9; }
 
 @media (max-width: 600px) {
   .merch-grid { grid-template-columns: repeat(2, 1fr); }
-  .show-date .day { font-size: 2rem; }
+  .show-date .day { font-size: 1.6rem; }
   .show-venue { font-size: 1.15rem; }
   .event-page .section-title { font-size: 2.35rem; letter-spacing: 0.04em; line-height: 1; }
   .event-page-date { font-size: 1rem; }

@@ -148,17 +148,17 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     </div>
     <div class="shows-list reveal" id="shows-list">
       <div class="show-row">
-        <div class="show-date"><div class="day">25</div><div class="mo">Apr 2026</div></div>
+        <div class="show-date"><div class="day">APR 25</div><div class="mo">2026</div></div>
         <div><div class="show-venue">The Firehouse BBQ and Blues</div><div class="show-loc">6:30PM - 9:30PM | Dunkirk, IN | Free | All Ages</div></div>
         <a href="https://www.facebook.com/events/989131186879527/" target="_blank" rel="noopener" class="btn">RSVP</a>
       </div>
       <div class="show-row">
-        <div class="show-date"><div class="day">30</div><div class="mo">May 2026</div></div>
+        <div class="show-date"><div class="day">MAY 30</div><div class="mo">2026</div></div>
         <div><div class="show-venue">1st Annual Flavor on Wheels Festival</div><div class="show-loc">4PM - 8PM | Hudson Park | Portland, IN | Free | All Ages</div></div>
         <a href="https://www.facebook.com/events/704542476055866/" target="_blank" rel="noopener" class="btn">RSVP</a>
       </div>
       <div class="show-row">
-        <div class="show-date"><div class="day">27</div><div class="mo">Jun 2026</div></div>
+        <div class="show-date"><div class="day">JUN 27</div><div class="mo">2026</div></div>
         <div><div class="show-venue">The Firehouse BBQ and Blues</div><div class="show-loc">6:30PM - 9:30PM | Dunkirk, IN | Free | All Ages</div></div>
         <a href="https://www.facebook.com/events/1287198373344724/" target="_blank" rel="noopener" class="btn">RSVP</a>
       </div>
@@ -506,9 +506,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       return { day: '--', monthYear: 'TBA' };
     }
 
-    const day = new Intl.DateTimeFormat('en-US', { day: '2-digit', timeZone: 'America/Indiana/Indianapolis' }).format(date);
-    const monthYear = new Intl.DateTimeFormat('en-US', { month: 'short', year: 'numeric', timeZone: 'America/Indiana/Indianapolis' }).format(date);
-    return { day, monthYear };
+    const month = new Intl.DateTimeFormat('en-US', { month: 'short', timeZone: 'America/Indiana/Indianapolis' }).format(date).toUpperCase();
+    const dayNum = new Intl.DateTimeFormat('en-US', { day: 'numeric', timeZone: 'America/Indiana/Indianapolis' }).format(date);
+    const year = new Intl.DateTimeFormat('en-US', { year: 'numeric', timeZone: 'America/Indiana/Indianapolis' }).format(date);
+    return { day: `${month} ${dayNum}`, monthYear: year };
   }
 
   function normalizeSpaces(value) {
