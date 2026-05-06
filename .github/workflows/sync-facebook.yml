@@ -13,6 +13,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - uses: actions/setup-node@v4
         with:
@@ -32,4 +34,5 @@ jobs:
           git add public/data/events.json public/data/photos.json public/sitemap.xml
           git add -A public/events/
           git diff --cached --quiet || git commit -m "chore: sync Facebook content"
+          git pull --rebase
           git push
