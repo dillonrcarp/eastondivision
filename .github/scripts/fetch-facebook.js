@@ -291,6 +291,10 @@ function getShowDetailLine(event, includeTime = true) {
 }
 
 function getEventPath(event) {
+  return `events/${event.id}`;
+}
+
+function getEventFilePath(event) {
   return `events/${event.id}.html`;
 }
 
@@ -427,27 +431,41 @@ function writeEventPages(events) {
 
   for (const event of events) {
     if (!event.id) continue;
-    fs.writeFileSync(path.join("public", getEventPath(event)), renderEventPage(event));
+    fs.writeFileSync(path.join("public", getEventFilePath(event)), renderEventPage(event));
   }
 }
 
+function getGitLastmod(filePath) {
+  try {
+    const result = require("child_process").execSync(
+      `git log -1 --format=%cI -- "${filePath}"`,
+      { encoding: "utf8" }
+    ).trim();
+    if (result) return result.slice(0, 10);
+  } catch {}
+  return new Date().toISOString().slice(0, 10);
+}
+
 function writeSitemap(events) {
-  const today = new Date().toISOString().slice(0, 10);
+  const homepageLastmod = getGitLastmod("public/index.html");
   const eventUrls = events
     .filter((event) => event.id)
-    .map((event) => `  <url>
+    .map((event) => {
+      const lastmod = getGitLastmod(path.join("public", getEventFilePath(event)));
+      return `  <url>
     <loc>${escapeXml(getEventUrl(event))}</loc>
-    <lastmod>${today}</lastmod>
+    <lastmod>${lastmod}</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
-  </url>`)
+  </url>`;
+    })
     .join("\n");
 
   const sitemap = `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>${SITE_URL}/</loc>
-    <lastmod>${today}</lastmod>
+    <lastmod>${homepageLastmod}</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>

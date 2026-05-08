@@ -705,7 +705,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   }
 
   function getEventPageUrl(event) {
-    return event.id ? `/events/${encodeURIComponent(event.id)}.html` : '';
+    return event.id ? `/events/${encodeURIComponent(event.id)}` : '';
   }
 
   function renderShows(events) {
