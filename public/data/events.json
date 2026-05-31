@@ -1,31 +1,5 @@
 [
   {
-    "id": "704542476055866",
-    "name": "East on Division @ Flavor on Wheels Festival in Portland, IN",
-    "description": "East on Division will be playing live music at the Inaugural Flavor on Wheels Festival at Hudson Park in Portland, Indiana on Saturday, May 30th from 4pm to 8pm.\n\nThis is an ALL AGES SHOW! Come enjoy the nice weather outside and explore the many food trucks, vendors, bounce houses, and toe-tapping blues and classic rock.",
-    "start_time": "2026-05-30T16:00:00-0400",
-    "end_time": "2026-05-30T20:00:00-0400",
-    "ticket_uri": null,
-    "cover": {
-      "offset_x": 50,
-      "offset_y": 30,
-      "source": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.30808-6/663353208_1259475813023857_4397188551016558413_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=9e60e4&_nc_ohc=k7iAmvrxJ3cQ7kNvwF_HETB&_nc_oc=AdqEE1673ZfMr3z18YnfkeMY_z53AQtLF03r2Aormh5Zde2pdfR2jonzF4juL4U7Y_I&_nc_zt=23&_nc_ht=scontent-ord5-2.xx&edm=ABTKTjYEAAAA&_nc_gid=6DhNwRalbRYOylSdr2UHRw&_nc_tpa=Q5bMBQGLbIh5fuTo_dW3nmRWwzOk9ghEEhe_YPtYJa8DsT38p99CppGSJURKvZn4_PY2cnYuel-lHDqRZQ&oh=00_Af48A898rFKmoTDQ8n70pjKQXMJ7D6zX-O9tl1inuQ7Mbg&oe=6A2060D7",
-      "id": "1259475806357191"
-    },
-    "place": {
-      "name": "Hudson Family Park",
-      "location": {
-        "city": "Portland",
-        "country": "United States",
-        "latitude": 40.427452,
-        "longitude": -84.970785,
-        "state": "IN",
-        "zip": "47371"
-      },
-      "id": "148617931868295"
-    }
-  },
-  {
     "id": "1287198373344724",
     "name": "East on Division @ The Firehouse BBQ and Blues in Dunkirk, IN",
     "description": "East on Division will be playing live music at The Firehouse BBQ and Blues in Dunkirk, Indiana on Saturday, June 27th from 6:30 until 9:30pm.\n\nThis is an ALL AGES SHOW! Come enjoy the nice weather outside with some delicious BBQ, cold drinks, and toe-tapping blues and classic rock.",
@@ -35,7 +9,7 @@
     "cover": {
       "offset_x": 50,
       "offset_y": 30,
-      "source": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.30808-6/659716683_1256756996629072_8783742500472811553_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=9e60e4&_nc_ohc=bNb3g4J5W_EQ7kNvwH_sMMT&_nc_oc=Adri1u-9CM-s1dWs38AAm9M_eUAk2-9SRUWp5y5kuG10k6redEdIzfwDhcdEaGmjPRw&_nc_zt=23&_nc_ht=scontent-ord5-1.xx&edm=ABTKTjYEAAAA&_nc_gid=6DhNwRalbRYOylSdr2UHRw&_nc_tpa=Q5bMBQHxDIU8c0TX2ACFU_7TnIo3HFpdsxo3R4kC9HcGU1ZlaU3Ol_SCgAssqxMZQJklyIVjtTreWCEFFQ&oh=00_Af7obYC4aSQecF9UtUpV9q2_mFQdC1x5tEwVHL6Veuzc_g&oe=6A208E06",
+      "source": "https://scontent-lga3-2.xx.fbcdn.net/v/t39.30808-6/659716683_1256756996629072_8783742500472811553_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=9e60e4&_nc_ohc=bNb3g4J5W_EQ7kNvwHcluRc&_nc_oc=Adr9C8wD16WxH9Amy2hm6sQWVptgZpqvAhH5ubRd7FYrTLSqHOBcNUdkj60iA4XrDxY&_nc_zt=23&_nc_ht=scontent-lga3-2.xx&edm=ABTKTjYEAAAA&_nc_gid=ZfBn0mWojxx_PAjsCYa52g&_nc_tpa=Q5bMBQHWfvDhjORhR0ZljynITRLKd5JxET33Od73DkGh_zxjx_l8KxLNQD5KLni09CfR8BLWc1eSaOPA6w&oh=00_Af-w0ofIDBMSSX1x5Df_6354nEl-LWg_KG1KiZDpsNY2hA&oe=6A21DF86",
       "id": "1256756993295739"
     },
     "place": {
@@ -62,7 +36,7 @@
     "cover": {
       "offset_x": 50,
       "offset_y": 30,
-      "source": "https://scontent-ord5-3.xx.fbcdn.net/v/t39.30808-6/690493249_1282539560717482_3718402958846876266_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=9e60e4&_nc_ohc=hm5jF8Ck73sQ7kNvwEuegQV&_nc_oc=AdrJXiMsj0Iu3AmcoSzhySgznYGpZuxd2XUHxHwTbiQvBdVjUEy0PNFq7cqo33_ItQQ&_nc_zt=23&_nc_ht=scontent-ord5-3.xx&edm=ABTKTjYEAAAA&_nc_gid=6DhNwRalbRYOylSdr2UHRw&_nc_tpa=Q5bMBQGVvfyeqzn74y7aOPncvH-XQkKkqQf97ic_qxbhVZLCBjfJv4HRnkjVwcisKjNmtU1XCXXr6Yerfg&oh=00_Af4lRvf7fck9LurTQ6lomtCEnqumcIIsTBrqfJgoFJOtUg&oe=6A208A88",
+      "source": "https://scontent-lga3-2.xx.fbcdn.net/v/t39.30808-6/690493249_1282539560717482_3718402958846876266_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=9e60e4&_nc_ohc=9GPmqEBZv7sQ7kNvwEh3WY_&_nc_oc=Adpaqy_wZN3v6YK9sxIMYu4EWlA1sxgG60o3utgJTaAfbOeGTnTuT9RAf1Kj-29dYgA&_nc_zt=23&_nc_ht=scontent-lga3-2.xx&edm=ABTKTjYEAAAA&_nc_gid=ZfBn0mWojxx_PAjsCYa52g&_nc_tpa=Q5bMBQFiudEauvcuYgZTKWo581otfj8eVXSQIhqB7HmOEWQ-tpIBNqLEHep-rHcFwzmFEUQ3wycv_nT-GA&oh=00_Af-jN7heLpfigu5AYUVMhZR1BnMEho-dhrFdtgBWvzh1dw&oe=6A21DC08",
       "id": "1282539557384149"
     },
     "place": {
@@ -79,7 +53,7 @@
     "cover": {
       "offset_x": 50,
       "offset_y": 30,
-      "source": "https://scontent-ord5-3.xx.fbcdn.net/v/t39.30808-6/690340513_1282539997384105_7205844157646737556_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=9e60e4&_nc_ohc=L_CSDmCpmu0Q7kNvwFBJolM&_nc_oc=AdponLMZUYefTtAZQ0qZIHYbx_p0qKyTuWNGzzDSsPjSDvn_IHkfK8E84B9-0hMJTMs&_nc_zt=23&_nc_ht=scontent-ord5-3.xx&edm=ABTKTjYEAAAA&_nc_gid=6DhNwRalbRYOylSdr2UHRw&_nc_tpa=Q5bMBQEfXD1yzuFNMKR18ci3GRo0QsTHYGvykr2NcOo4jM0FWRLecBCXcDPVg-ce1bjAI-kZbKc2K7nkLg&oh=00_Af4qnTLCPGeBUACOFv7DEUKe4c2nKpFZdVW_HZRsLbBEQQ&oe=6A206D46",
+      "source": "https://scontent-lga3-1.xx.fbcdn.net/v/t39.30808-6/690340513_1282539997384105_7205844157646737556_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=9e60e4&_nc_ohc=lIbhVCAr6IoQ7kNvwGpIs9h&_nc_oc=AdqjPzDK4zOBXb8RhLgUmLoPNg9gUB5i_aPNm5MrrBNQ5Yt4q8E7MVq7caZecXuhhZc&_nc_zt=23&_nc_ht=scontent-lga3-1.xx&edm=ABTKTjYEAAAA&_nc_gid=ZfBn0mWojxx_PAjsCYa52g&_nc_tpa=Q5bMBQFLcK_-DnohmqapNWnkBWicXLF6ZecgoS-iPrkKV4U9NGZu4Tw6KZ8FRyRqn1yLo0KZZLmguIeKvA&oh=00_Af9fkoctFlTU4-zCPJhpQJ2gQL5x4dT87Da_Uvgqr_E0Rg&oe=6A21BEC6",
       "id": "1282539990717439"
     },
     "place": {
