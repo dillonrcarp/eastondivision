@@ -9,7 +9,7 @@
     "cover": {
       "offset_x": 50,
       "offset_y": 30,
-      "source": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-6/659716683_1256756996629072_8783742500472811553_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=9e60e4&_nc_ohc=S7bZCQYSJfgQ7kNvwFHEZUH&_nc_oc=AdrIszN7eHUmE5k6zIyZjyOvix9NNvM8bUpsVFT3zDhY9B5kkID6kQfG02Oe39Ts2Rg&_nc_zt=23&_nc_ht=scontent-sjc6-1.xx&edm=ABTKTjYEAAAA&_nc_gid=MzPFaq-6pPkF5DvOEWF3fw&_nc_tpa=Q5bMBQFSf2jpUswyQ2LmAsE-Y5OyTIzoXxe7bJBJSSn56fk9XDHO4XgYlJndSjoa0nq1RwREDDYSDWqQMA&oh=00_Af9ILgmOFRdbD9kRy35vjqxlnm9msli_MZ4I9OwC333eww&oe=6A442686",
+      "source": "https://scontent-fra3-1.xx.fbcdn.net/v/t39.30808-6/659716683_1256756996629072_8783742500472811553_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=9e60e4&_nc_ohc=S7bZCQYSJfgQ7kNvwEvZf0-&_nc_oc=AdpJSoW7d0R2LOaJqzZZ3U7X_c-DNhBRDGGYxYHk-mXPuOKSv7wi3_rqKskE5LTnKI0&_nc_zt=23&_nc_ht=scontent-fra3-1.xx&edm=ABTKTjYEAAAA&_nc_gid=CyitNjsR4DrW8KeTLcf2Bw&_nc_tpa=Q5bMBQFdIuzZaBqIeEy2voFAhIUmxxotUAJkCG_LwlvywoDP82wW7AuzK5wP1nKa3AgZgQrSyCPJ9Y-wnw&oh=00_Af-YcLufGbKyhQJxCVt_y4nH1nTzE0P8MiKv91IAQXmTkQ&oe=6A457806",
       "id": "1256756993295739"
     },
     "place": {
@@ -27,6 +27,23 @@
     }
   },
   {
+    "id": "2003066657240244",
+    "name": "East on Division @ B&B Farms Chuckwagon Races in Bryant, IN | July 25, 2026 | 10pm-1am",
+    "description": "East on Division will be playing live music at B&B Farms Chuckwagon Races in Bryant, Indiana starting Saturday, July 25 at 9:45pm until 1am.\n\nCome enjoy the nice weather outside with some delicious BBQ, cold drinks, and toe-tapping blues and classic rock",
+    "start_time": "2026-07-25T22:00:00-0400",
+    "end_time": "2026-07-26T01:00:00-0400",
+    "ticket_uri": null,
+    "cover": {
+      "offset_x": 50,
+      "offset_y": 24,
+      "source": "https://scontent-fra5-1.xx.fbcdn.net/v/t39.30808-6/731339031_1325216096449828_5210981051956857036_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=9e60e4&_nc_ohc=I6l7ZwJq_vwQ7kNvwG449tb&_nc_oc=AdqWD8n5xpNJgaSSPbEuS-jRqq-iW8wsefhYS5F8pC1aljV9vOxPmXyDxPQvDBh2Dyo&_nc_zt=23&_nc_ht=scontent-fra5-1.xx&edm=ABTKTjYEAAAA&_nc_gid=CyitNjsR4DrW8KeTLcf2Bw&_nc_tpa=Q5bMBQETHIGbL0gu68dpEmJahIEV8lRp_ysOBdAcBA9c5yOfamif8wJ2djZ1LZO7DDYuwyhg2KaujYo1WQ&oh=00_Af85KGjFfLWZxn3-kROKGcZX-KuW_lBrXKIwu3qcqr8PYA&oe=6A454AAF",
+      "id": "1325216089783162"
+    },
+    "place": {
+      "name": "1914 W 550 N, Bryant, IN 47326-8979, United States"
+    }
+  },
+  {
     "id": "1308001694629719",
     "name": "East on Division @ The Firehouse BBQ and Blues in Dunkirk, IN",
     "description": "East on Division will be playing live music at The Firehouse BBQ and Blues in Dunkirk, Indiana on Saturday, August 22 from 6:30 until 9:30pm.\n\nThis is an ALL AGES SHOW! Come enjoy the nice weather outside with some delicious BBQ, cold drinks, and toe-tapping blues and classic rock.",
@@ -36,7 +53,7 @@
     "cover": {
       "offset_x": 50,
       "offset_y": 30,
-      "source": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-6/690493249_1282539560717482_3718402958846876266_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=9e60e4&_nc_ohc=ebSoLmH63o0Q7kNvwHOfTCb&_nc_oc=AdoCau8eRFVLwr0x2oWf52Wv5glTedp1vtSuRKri5tMcFys_wJe4DaVOyGglgVO3a3k&_nc_zt=23&_nc_ht=scontent-sjc6-1.xx&edm=ABTKTjYEAAAA&_nc_gid=MzPFaq-6pPkF5DvOEWF3fw&_nc_tpa=Q5bMBQGhcw7qU7ydJ2nLGsXdxDf3KTDgM-PVUA6Y7ssCnjO7n4moc76qqNsOvrS8cTD-M4Skyp-L5Ft-qQ&oh=00_Af9y2J4cgD0_YtkN_HRlJKVlX7ylf6XaDmSDs7f9ENvMuw&oe=6A442308",
+      "source": "https://scontent-fra5-2.xx.fbcdn.net/v/t39.30808-6/690493249_1282539560717482_3718402958846876266_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=9e60e4&_nc_ohc=lslZVrmJwL4Q7kNvwH4Y8TU&_nc_oc=AdrxNdCKJXbRyYToKhNkE4X-BljE734IW2M4UJm_gBF4jc-Vo2ONuBilIWv4ubns9vg&_nc_zt=23&_nc_ht=scontent-fra5-2.xx&edm=ABTKTjYEAAAA&_nc_gid=CyitNjsR4DrW8KeTLcf2Bw&_nc_tpa=Q5bMBQG37x6X6prM9zigNniaudKZq9y117HUaeTtpvNLiMQVFazKBVbAi5DRgc5dIjxYKS3iFIDArWZ-KQ&oh=00_Af-d4kfxzXrDwCpY_Bbh3nVrbObbGcNcBUKse-AxMPO7vg&oe=6A457488",
       "id": "1282539557384149"
     },
     "place": {
@@ -53,7 +70,7 @@
     "cover": {
       "offset_x": 50,
       "offset_y": 30,
-      "source": "https://scontent-sjc3-1.xx.fbcdn.net/v/t39.30808-6/690340513_1282539997384105_7205844157646737556_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=9e60e4&_nc_ohc=rx3MppzLYcEQ7kNvwFskUN9&_nc_oc=AdocAMbmtJmGyMTvRpLHl3mVhhTNkehdsm-UGmzhHa9BSXQJNXhEdM0JgRke8g3UXS0&_nc_zt=23&_nc_ht=scontent-sjc3-1.xx&edm=ABTKTjYEAAAA&_nc_gid=MzPFaq-6pPkF5DvOEWF3fw&_nc_tpa=Q5bMBQGmHWGfiTWprli9tD6dFB6l7hUq5ZNSMlKDV0lzc6Kdu1eKjKRmBzyVmyBbUNJhbyzOT5oSl6_Zxw&oh=00_Af9e7GT94nDup4T9KMskj0-o6UKx1IjVn-TbyVpCpKVefA&oe=6A4405C6",
+      "source": "https://scontent-fra5-1.xx.fbcdn.net/v/t39.30808-6/690340513_1282539997384105_7205844157646737556_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=9e60e4&_nc_ohc=gg_NLRYPsRcQ7kNvwE4-0n1&_nc_oc=Adr_gjnlbRgqF3fXW3wMi8xZ8uN1s1qPYT4rI8aFp-sk7YosFecV_HpPGCnLZPUw8ro&_nc_zt=23&_nc_ht=scontent-fra5-1.xx&edm=ABTKTjYEAAAA&_nc_gid=CyitNjsR4DrW8KeTLcf2Bw&_nc_tpa=Q5bMBQHVSnYkrAPkHzYjzU16HApmVrFKRkx9jKvs7AncA7pdVkp-2BtVnvpiGFGT8JBqP84T0_KLw9-mdA&oh=00_Af_Aiz8NU2tlVeu5LuoUAxcra0BmJ3t6G8NNrmsHNEoPvA&oe=6A455746",
       "id": "1282539990717439"
     },
     "place": {
