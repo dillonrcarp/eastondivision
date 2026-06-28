@@ -1,32 +1,5 @@
 [
   {
-    "id": "1287198373344724",
-    "name": "East on Division @ The Firehouse BBQ and Blues in Dunkirk, IN",
-    "description": "East on Division will be playing live music at The Firehouse BBQ and Blues in Dunkirk, Indiana on Saturday, June 27th from 6:30 until 9:30pm.\n\nThis is an ALL AGES SHOW! Come enjoy the nice weather outside with some delicious BBQ, cold drinks, and toe-tapping blues and classic rock.",
-    "start_time": "2026-06-27T18:30:00-0400",
-    "end_time": "2026-06-27T21:30:00-0400",
-    "ticket_uri": null,
-    "cover": {
-      "offset_x": 50,
-      "offset_y": 30,
-      "source": "https://scontent-fra3-1.xx.fbcdn.net/v/t39.30808-6/659716683_1256756996629072_8783742500472811553_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=9e60e4&_nc_ohc=S7bZCQYSJfgQ7kNvwEvZf0-&_nc_oc=AdpJSoW7d0R2LOaJqzZZ3U7X_c-DNhBRDGGYxYHk-mXPuOKSv7wi3_rqKskE5LTnKI0&_nc_zt=23&_nc_ht=scontent-fra3-1.xx&edm=ABTKTjYEAAAA&_nc_gid=CyitNjsR4DrW8KeTLcf2Bw&_nc_tpa=Q5bMBQFdIuzZaBqIeEy2voFAhIUmxxotUAJkCG_LwlvywoDP82wW7AuzK5wP1nKa3AgZgQrSyCPJ9Y-wnw&oh=00_Af-YcLufGbKyhQJxCVt_y4nH1nTzE0P8MiKv91IAQXmTkQ&oe=6A457806",
-      "id": "1256756993295739"
-    },
-    "place": {
-      "name": "The Firehouse BBQ and Blues Dunkirk",
-      "location": {
-        "city": "Dunkirk",
-        "country": "United States",
-        "latitude": 40.3741,
-        "longitude": -85.20939,
-        "state": "IN",
-        "street": "126 East Commerce Street",
-        "zip": "47336"
-      },
-      "id": "248532295015293"
-    }
-  },
-  {
     "id": "2003066657240244",
     "name": "East on Division @ B&B Farms Chuckwagon Races in Bryant, IN | July 25, 2026 | 10pm-1am",
     "description": "East on Division will be playing live music at B&B Farms Chuckwagon Races in Bryant, Indiana starting Saturday, July 25 at 9:45pm until 1am.\n\nCome enjoy the nice weather outside with some delicious BBQ, cold drinks, and toe-tapping blues and classic rock",
@@ -36,7 +9,7 @@
     "cover": {
       "offset_x": 50,
       "offset_y": 24,
-      "source": "https://scontent-fra5-1.xx.fbcdn.net/v/t39.30808-6/731339031_1325216096449828_5210981051956857036_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=9e60e4&_nc_ohc=I6l7ZwJq_vwQ7kNvwG449tb&_nc_oc=AdqWD8n5xpNJgaSSPbEuS-jRqq-iW8wsefhYS5F8pC1aljV9vOxPmXyDxPQvDBh2Dyo&_nc_zt=23&_nc_ht=scontent-fra5-1.xx&edm=ABTKTjYEAAAA&_nc_gid=CyitNjsR4DrW8KeTLcf2Bw&_nc_tpa=Q5bMBQETHIGbL0gu68dpEmJahIEV8lRp_ysOBdAcBA9c5yOfamif8wJ2djZ1LZO7DDYuwyhg2KaujYo1WQ&oh=00_Af85KGjFfLWZxn3-kROKGcZX-KuW_lBrXKIwu3qcqr8PYA&oe=6A454AAF",
+      "source": "https://scontent-sin2-1.xx.fbcdn.net/v/t39.30808-6/731339031_1325216096449828_5210981051956857036_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=9e60e4&_nc_ohc=I6l7ZwJq_vwQ7kNvwGM6kKL&_nc_oc=AdrCkZti8ijcNSkmTff4hJ6W5XrumEOUc7KPnH3kfWFHMh0j1YuBpC7GfKfqrdR9qpk&_nc_zt=23&_nc_ht=scontent-sin2-1.xx&edm=ABTKTjYEAAAA&_nc_gid=Co-B47Q5B2t2odnssn0SqQ&_nc_tpa=Q5bMBQH2NSg_voMPfTgKk2EwFSAyWn-4NHwK5ZDxdp0_zr3MPkcd4Yt04Jk9sS43MtJBe0QhH72MmLB_rg&oh=00_Af9oEjmwn7kffWdKJAcFbVkEDdtH57nzSmnZlNpMEmVkHQ&oe=6A469C2F",
       "id": "1325216089783162"
     },
     "place": {
@@ -53,7 +26,7 @@
     "cover": {
       "offset_x": 50,
       "offset_y": 30,
-      "source": "https://scontent-fra5-2.xx.fbcdn.net/v/t39.30808-6/690493249_1282539560717482_3718402958846876266_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=9e60e4&_nc_ohc=lslZVrmJwL4Q7kNvwH4Y8TU&_nc_oc=AdrxNdCKJXbRyYToKhNkE4X-BljE734IW2M4UJm_gBF4jc-Vo2ONuBilIWv4ubns9vg&_nc_zt=23&_nc_ht=scontent-fra5-2.xx&edm=ABTKTjYEAAAA&_nc_gid=CyitNjsR4DrW8KeTLcf2Bw&_nc_tpa=Q5bMBQG37x6X6prM9zigNniaudKZq9y117HUaeTtpvNLiMQVFazKBVbAi5DRgc5dIjxYKS3iFIDArWZ-KQ&oh=00_Af-d4kfxzXrDwCpY_Bbh3nVrbObbGcNcBUKse-AxMPO7vg&oe=6A457488",
+      "source": "https://scontent-sin2-3.xx.fbcdn.net/v/t39.30808-6/690493249_1282539560717482_3718402958846876266_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=9e60e4&_nc_ohc=lslZVrmJwL4Q7kNvwF1Qo-i&_nc_oc=Adq1pUotIgvCF7bdHkHs3IJmszvVYUieHtXFIS-D270hWnb2nDocYw32n1DN-zTp160&_nc_zt=23&_nc_ht=scontent-sin2-3.xx&edm=ABTKTjYEAAAA&_nc_gid=Co-B47Q5B2t2odnssn0SqQ&_nc_tpa=Q5bMBQEyXWT3k27_ZoSMgNiUAIYX9szndtj0SDPYmP0CSxTJcWoGhJAIBS3RX0ctBW9HZQ8PHdn0R3sBtg&oh=00_Af-8z6i_QkKPr0mSz6gQtix9HrbiAcObZuaw7-YeNbXkdw&oe=6A46C608",
       "id": "1282539557384149"
     },
     "place": {
@@ -70,7 +43,7 @@
     "cover": {
       "offset_x": 50,
       "offset_y": 30,
-      "source": "https://scontent-fra5-1.xx.fbcdn.net/v/t39.30808-6/690340513_1282539997384105_7205844157646737556_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=9e60e4&_nc_ohc=gg_NLRYPsRcQ7kNvwE4-0n1&_nc_oc=Adr_gjnlbRgqF3fXW3wMi8xZ8uN1s1qPYT4rI8aFp-sk7YosFecV_HpPGCnLZPUw8ro&_nc_zt=23&_nc_ht=scontent-fra5-1.xx&edm=ABTKTjYEAAAA&_nc_gid=CyitNjsR4DrW8KeTLcf2Bw&_nc_tpa=Q5bMBQHVSnYkrAPkHzYjzU16HApmVrFKRkx9jKvs7AncA7pdVkp-2BtVnvpiGFGT8JBqP84T0_KLw9-mdA&oh=00_Af_Aiz8NU2tlVeu5LuoUAxcra0BmJ3t6G8NNrmsHNEoPvA&oe=6A455746",
+      "source": "https://scontent-sin6-3.xx.fbcdn.net/v/t39.30808-6/690340513_1282539997384105_7205844157646737556_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=9e60e4&_nc_ohc=gg_NLRYPsRcQ7kNvwHYTrNK&_nc_oc=Adrkr0s8Fxy531ykVeq5e0XenzS_s1hql6Yf638aANJHab8ZoHuQphrqRxyD3Qa_pEY&_nc_zt=23&_nc_ht=scontent-sin6-3.xx&edm=ABTKTjYEAAAA&_nc_gid=Co-B47Q5B2t2odnssn0SqQ&_nc_tpa=Q5bMBQH4IuAnnDfW0ZvkEB8Cy7ypmE1wwvGyCMv6hiuRtMSOcNKpP3ZV5RZ0Wb-IKegj7SUo_-AFEy2KdA&oh=00_Af-MAf--3TfXQJbdGmlH5ESbmNZc8zTEW8CeloFdB-e3hA&oe=6A46A8C6",
       "id": "1282539990717439"
     },
     "place": {
