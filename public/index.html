@@ -525,7 +525,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   });
 
   const showsList = document.getElementById('shows-list');
-  const photoStrip = document.getElementById('photo-strip');
 
   function escapeHtml(value) {
     return String(value)
@@ -774,49 +773,13 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     showsList.innerHTML = rows;
   }
 
-  function pickLargestImage(images) {
-    if (!Array.isArray(images) || images.length === 0) return null;
-    return images.slice().sort((a, b) => (b.width || 0) - (a.width || 0))[0];
-  }
-
-  function renderPhotos(photos) {
-    if (!photoStrip || !Array.isArray(photos) || photos.length === 0) return;
-
-    const markup = photos
-      .map((photo) => {
-        const image = pickLargestImage(photo.images);
-        if (!image || !image.source) return '';
-        const alt = photo.name || 'East On Division live photo';
-        return `
-          <picture>
-            <img src="${escapeHtml(image.source)}" alt="${escapeHtml(alt)}" loading="lazy" />
-          </picture>
-        `;
-      })
-      .filter(Boolean)
-      .slice(0, 5)
-      .join('');
-
-    if (markup) {
-      photoStrip.innerHTML = markup;
-    }
-  }
-
   async function loadContent() {
     try {
-      const [eventsRes, photosRes] = await Promise.all([
-        fetch('/data/events.json'),
-        fetch('/data/photos.json')
-      ]);
+      const eventsRes = await fetch('/data/events.json');
 
       if (eventsRes.ok) {
         const events = await eventsRes.json();
         renderShows(events);
-      }
-
-      if (photosRes.ok) {
-        const photos = await photosRes.json();
-        renderPhotos(photos);
       }
     } catch (err) {
       console.warn('Live content fetch failed, using fallback content.', err);
