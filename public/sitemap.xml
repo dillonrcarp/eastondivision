@@ -8,13 +8,25 @@
   </url>
   <url>
     <loc>https://eastondivision.com/events/1308001694629719</loc>
-    <lastmod>2026-08-18</lastmod>
+    <lastmod>2026-08-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://eastondivision.com/events/2651681045302244</loc>
+    <lastmod>2026-08-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://eastondivision.com/events/1784889822955621</loc>
+    <lastmod>2026-08-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://eastondivision.com/events/1931531124214759</loc>
-    <lastmod>2026-08-18</lastmod>
+    <lastmod>2026-08-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>

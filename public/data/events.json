@@ -1,33 +1,67 @@
 [
   {
     "id": "1308001694629719",
-    "name": "East on Division @ The Firehouse BBQ and Blues in Dunkirk, IN | Sat, Aug 22 | 6:30pm - 9:30pm",
-    "description": "East on Division will be playing live music at The Firehouse BBQ and Blues in Dunkirk, Indiana on Saturday, August 22 from 6:30 until 9:30pm.\n\nThis is an ALL AGES SHOW! Come enjoy the nice weather outside with some delicious BBQ, cold drinks, and toe-tapping blues and classic rock.",
-    "start_time": "2026-08-22T18:30:00-0400",
-    "end_time": "2026-08-22T21:30:00-0400",
+    "name": "East on Division @ The Firehouse BBQ and Blues in Dunkirk, IN | Sat, Aug 22 | 6:00pm - 9:00pm",
+    "description": "East on Division will be playing live music at The Firehouse BBQ and Blues in Dunkirk, Indiana on Saturday, August 22 from 6:00 until 9:00pm.\n\nThis is an ALL AGES SHOW! Come enjoy the nice weather outside with some delicious BBQ, cold drinks, and toe-tapping blues and classic rock.",
+    "start_time": "2026-08-22T18:00:00-0400",
+    "end_time": "2026-08-22T21:00:00-0400",
     "ticket_uri": null,
     "cover": {
       "offset_x": 50,
-      "offset_y": 30,
-      "source": "https://scontent-sea5-1.xx.fbcdn.net/v/t39.30808-6/690493249_1282539560717482_3718402958846876266_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=9e60e4&_nc_ohc=ZmWqE7bU5AEQ7kNvwH6aYpH&_nc_oc=AdrVF3fG1wvQFtqSnR3aVTC7G95L_7JVJeHNr-z4Xy6kpBAXIUXoisRXjFV2N_oupTY&_nc_zt=23&_nc_ht=scontent-sea5-1.xx&edm=ABTKTjYEAAAA&_nc_gid=wsQneFYHNDYaDj-YvwQTHA&_nc_tpa=Q5bMBQIduXmR6wh7INf3yFSnMSEfRgR_QSxmeYa4vd0rt2Dk9vhgGE5IDW1ltegIJnVuxh_DRPHS80qZyA&oh=00_AQGn7CbtnTsIP8oM94z-RFRQpSi7PDgZqIuxf-fp-fGanA&oe=6A8B1BC8",
-      "id": "1282539557384149"
+      "offset_y": 43,
+      "source": "https://scontent-dfw6-1.xx.fbcdn.net/v/t39.30808-6/778543707_1370126795292091_6495131201025236755_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=9e60e4&_nc_ohc=Bq6LBIf4qxoQ7kNvwEiW31o&_nc_oc=AdrepKeEWmJbN6va1kW6D-kYS9iqqlYtN87gltkHSKJhIh6Zn1-PUTZByZiChZoG0o8&_nc_zt=23&_nc_ht=scontent-dfw6-1.xx&edm=ABTKTjYEAAAA&_nc_gid=ayuOxddmzt8n-bwvUO8nsw&_nc_tpa=Q5bMBQKRRrFQidigYsP-ag9oG4NxWHplR0lJMTnaP203xIpquPXP6SCBikdTs1tUmzzXdehC9RGqX0d26w&oh=00_AQEBkee7uAoAk-x3PN2sBZX0lQ7ScOzKPDnXBhIqqpE1Dg&oe=6A8C6E49",
+      "id": "1370126791958758"
     },
     "place": {
       "name": "The Firehouse BBQ and Blues Dunkirk"
     }
   },
   {
-    "id": "1931531124214759",
-    "name": "East on Division @ The Firehouse BBQ and Blues in Dunkirk, IN | Sat, Oct 3 | 6:30pm - 9:30pm",
-    "description": "East on Division will be playing live music at The Firehouse BBQ and Blues in Dunkirk, Indiana on Saturday, October 3 from 6:30 until 9:30pm.\n\nThis is an ALL AGES SHOW! Come enjoy the nice weather outside with some delicious BBQ, cold drinks, and toe-tapping blues and classic rock.",
-    "start_time": "2026-10-03T18:30:00-0400",
-    "end_time": "2026-10-03T21:30:00-0400",
+    "id": "2651681045302244",
+    "name": "East on Division @ Main Street Fall Festival in Portland, IN | Sat, Sep 26 | 3:30 - 5pm",
+    "description": "East on Division will be playing live music at The Main Street Fall Festival in Portland, Indiana on Saturday, September 26 from 3:30 until 5pm.\n\nThis is an ALL AGES SHOW! Come join us for a free event for the whole family on East Main Street in Portland, IN! Enjoy additional live music by Cook & Bell, Food Trucks, Local Vendors, Games and more!",
+    "start_time": "2026-09-26T15:30:00-0400",
+    "end_time": "2026-09-26T17:00:00-0400",
     "ticket_uri": null,
     "cover": {
       "offset_x": 50,
-      "offset_y": 30,
-      "source": "https://scontent-sea5-1.xx.fbcdn.net/v/t39.30808-6/690340513_1282539997384105_7205844157646737556_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=9e60e4&_nc_ohc=lzicYMO24EgQ7kNvwFlcaVQ&_nc_oc=Adpxjx_ZYSC6ml9ynopmRg4dUZlal_kXz85h3-RLJrtEv5bCjROCmyKo1t9U2Qt4qXw&_nc_zt=23&_nc_ht=scontent-sea5-1.xx&edm=ABTKTjYEAAAA&_nc_gid=wsQneFYHNDYaDj-YvwQTHA&_nc_tpa=Q5bMBQJfGx2qzaD1bo92YJYVTXPnNSyGu6XLXqQWbGyRu7JWMj1oahZbSkhGWrx5LWOeaOWrNrA-XUywZA&oh=00_AQG7hcnhh7AiEBBLkcCyTHw8QpbMKDj1NJsg-ojW2Am3sw&oe=6A8B36C6",
-      "id": "1282539990717439"
+      "offset_y": 53,
+      "source": "https://scontent-dfw5-1.xx.fbcdn.net/v/t39.30808-6/780862933_1370127161958721_154349171333709632_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=9e60e4&_nc_ohc=t92W8jVcwcYQ7kNvwGHST9E&_nc_oc=AdoHLkw-0vtGyt_lpW1Rs8EdfAoe0hybtTzS7MBVBACRAPID5qzR2akW6Lns6w75ukw&_nc_zt=23&_nc_ht=scontent-dfw5-1.xx&edm=ABTKTjYEAAAA&_nc_gid=ayuOxddmzt8n-bwvUO8nsw&_nc_tpa=Q5bMBQLI6Fh6g270THwJv2g0M_PFEBj2EQkPqt3Zigccsn3E5vre4m_FBgHpUVZFgiHKVRUS7MbwF1rG8w&oh=00_AQHXJ7HTPb7zpmZfuLkGLkcEgVgtXBbWp4pZR8ywexXmXg&oe=6A8C8A19",
+      "id": "1370127158625388"
+    },
+    "place": {
+      "name": "101 S Meridian St, Portland, IN 47371-2112, United States"
+    }
+  },
+  {
+    "id": "1784889822955621",
+    "name": "East on Division @ Eagles Lodge 928 in Portland, IN | Sat, Sep 26 | 6pm - 10pm",
+    "description": "East on Division will be playing live music at The Eagles Lodge 928 in Portland, Indiana on Saturday, September 26 from 6pm until 10pm.\n\nThis is a 21 AND OVER ONLY SHOW! Come join us at Eagles Lodge 928 for great drinks, great friends, and great live blues and rock music!",
+    "start_time": "2026-09-26T18:00:00-0400",
+    "end_time": "2026-09-26T22:00:00-0400",
+    "ticket_uri": null,
+    "cover": {
+      "offset_x": 50,
+      "offset_y": 41,
+      "source": "https://scontent-dfw6-1.xx.fbcdn.net/v/t39.30808-6/782094705_1370127931958644_4418822389401895412_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=9e60e4&_nc_ohc=cjz6ld4aAZoQ7kNvwGBYaBw&_nc_oc=AdpHEk8aj7Ju3DWT_9CRaaSfzgNd7hGzjc7X01zg5NPL4B2d1fRtuKOcetUIFYlnjYo&_nc_zt=23&_nc_ht=scontent-dfw6-1.xx&edm=ABTKTjYEAAAA&_nc_gid=ayuOxddmzt8n-bwvUO8nsw&_nc_tpa=Q5bMBQI1T9YPPidK9j9OQK60ptyOqPTgsxv3gcP0Ol9VK2CY5ZyxNhbzdL8C3uv5r73W_Dd4GuEQp2OEMw&oh=00_AQFtTPkoS_Ncf-UiKuNWcZVPZNt8sGxDHpYs2H3bMF_xfw&oe=6A8C58F7",
+      "id": "1370127928625311"
+    },
+    "place": {
+      "name": "320 N Meridian St, Portland, IN 47371-1906, United States"
+    }
+  },
+  {
+    "id": "1931531124214759",
+    "name": "East on Division @ The Firehouse BBQ and Blues in Dunkirk, IN | Sat, Oct 3 | 6:00pm - 9:00pm",
+    "description": "East on Division will be playing live music at The Firehouse BBQ and Blues in Dunkirk, Indiana on Saturday, October 3 from 6:00 until 9:00pm.\n\nThis is an ALL AGES SHOW! Come enjoy the nice weather outside with some delicious BBQ, cold drinks, and toe-tapping blues and classic rock.",
+    "start_time": "2026-10-03T18:00:00-0400",
+    "end_time": "2026-10-03T21:00:00-0400",
+    "ticket_uri": null,
+    "cover": {
+      "offset_x": 50,
+      "offset_y": 45,
+      "source": "https://scontent-dfw6-1.xx.fbcdn.net/v/t39.30808-6/780374514_1370129301958507_2914600968449883446_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=9e60e4&_nc_ohc=H1r36I7xfEMQ7kNvwGESEI6&_nc_oc=Adp4JM9vmTbNeuyU3n9hAKlPhF2sFNWzAydW6J0WpS_mx7W5rBRDEdQoS2Hf6MQTg9s&_nc_zt=23&_nc_ht=scontent-dfw6-1.xx&edm=ABTKTjYEAAAA&_nc_gid=ayuOxddmzt8n-bwvUO8nsw&_nc_tpa=Q5bMBQJe8z0MZHCVr6x21R4ZQ1dE3alN2b7XFlNdJ7pahvGIj_IhOKU1DzBlQrXRofTGECNSa8Izo5zK5A&oh=00_AQEkwcWSXiA98BrulEvNMbf9ZNoQxG7n-ItIGYw-wzMn7A&oe=6A8C6925",
+      "id": "1370129298625174"
     },
     "place": {
       "name": "The Firehouse BBQ and Blues Dunkirk"
