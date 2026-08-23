@@ -1,22 +1,5 @@
 [
   {
-    "id": "1308001694629719",
-    "name": "East on Division @ The Firehouse BBQ and Blues in Dunkirk, IN | Sat, Aug 22 | 6:00pm - 9:00pm",
-    "description": "East on Division will be playing live music at The Firehouse BBQ and Blues in Dunkirk, Indiana on Saturday, August 22 from 6:00 until 9:00pm.\n\nThis is an ALL AGES SHOW! Come enjoy the nice weather outside with some delicious BBQ, cold drinks, and toe-tapping blues and classic rock.",
-    "start_time": "2026-08-22T18:00:00-0400",
-    "end_time": "2026-08-22T21:00:00-0400",
-    "ticket_uri": null,
-    "cover": {
-      "offset_x": 50,
-      "offset_y": 43,
-      "source": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-6/778543707_1370126795292091_6495131201025236755_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=9e60e4&_nc_ohc=Bq6LBIf4qxoQ7kNvwF2CE-w&_nc_oc=AdqyBNp7LbaEtnbRQ6_zHyXkRzIRmsUB7gQLakdSrXKh5h1HBKgFZjznhehzJuKinrQ&_nc_zt=23&_nc_ht=scontent-sjc6-1.xx&edm=ABTKTjYEAAAA&_nc_gid=I914m6yDlCLnH_u3mAiigQ&_nc_tpa=Q5bMBQICqayxuatbfJN5S_vhJG8Y_vOTTTYKvCTasCduolFuy4P1VuwqID6kFVg5bLr9AWzygP9IFo7MhA&oh=00_AQFxkthW0J3TUHlVEEEAmYTotBuGF3rBvxmVlsshMPCkHQ&oe=6A8F1149",
-      "id": "1370126791958758"
-    },
-    "place": {
-      "name": "The Firehouse BBQ and Blues Dunkirk"
-    }
-  },
-  {
     "id": "2651681045302244",
     "name": "East on Division @ Main Street Fall Festival in Portland, IN | Sat, Sep 26 | 3:30 - 5pm",
     "description": "East on Division will be playing live music at The Main Street Fall Festival in Portland, Indiana on Saturday, September 26 from 3:30 until 5pm.\n\nThis is an ALL AGES SHOW! Come join us for a free event for the whole family on East Main Street in Portland, IN! Enjoy additional live music by Cook & Bell, Food Trucks, Local Vendors, Games and more!",
@@ -26,7 +9,7 @@
     "cover": {
       "offset_x": 50,
       "offset_y": 53,
-      "source": "https://scontent-sjc3-1.xx.fbcdn.net/v/t39.30808-6/780862933_1370127161958721_154349171333709632_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=9e60e4&_nc_ohc=JdliwA4T6KsQ7kNvwE9PsXx&_nc_oc=AdqWATxCT_bNBRyUxmurjeqNoSd8Ap7ekFxxjRmifL2LF4-fal4D6rKAoXenIt04GVw&_nc_zt=23&_nc_ht=scontent-sjc3-1.xx&edm=ABTKTjYEAAAA&_nc_gid=I914m6yDlCLnH_u3mAiigQ&_nc_tpa=Q5bMBQLqNz03Jjd-uSn3XR3nUg6b0bG2oBHjq1WaYE1xOjAJXghvdYOyng9226e7Lv_tawiCx5BrMSKQcg&oh=00_AQFrJWglkE7bkqQN7JShklOGwxaYwl-oKqECl5710KdhhA&oe=6A8F2D19",
+      "source": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.30808-6/780862933_1370127161958721_154349171333709632_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=9e60e4&_nc_ohc=JdliwA4T6KsQ7kNvwGHwVbF&_nc_oc=Adr9cX7yRDqN04ZS1CMV6YtnNm1i5RLh9H4QE3geG8I3QEyVh9bXb_5UMHiyi2Ozlts&_nc_zt=23&_nc_ht=scontent-ord5-2.xx&edm=ABTKTjYEAAAA&_nc_gid=vF3ch67ggFM1lkpgi8bwbQ&_nc_tpa=Q5bMBQK3YmApyZDcHrSaQ7jY-HwMd0bR7e8jeBMoon6AGZRBQvFOXGmrD63zrRzycGRiLyeNIIrSFNdX5A&oh=00_AQE6J0BRIqUNJdbF6VX3Tfis1usLymk7phzYWh52RpQg2g&oe=6A907E99",
       "id": "1370127158625388"
     },
     "place": {
@@ -43,7 +26,7 @@
     "cover": {
       "offset_x": 50,
       "offset_y": 41,
-      "source": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-6/782094705_1370127931958644_4418822389401895412_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=9e60e4&_nc_ohc=UkJyCwJZygsQ7kNvwHgFHa5&_nc_oc=Adr_ktcBWjIgkhEmi2kaijVi7k6gSDgeINAn9LfvQaeEQ-VQ05-W-kA9R2_VanWWh7k&_nc_zt=23&_nc_ht=scontent-sjc6-1.xx&edm=ABTKTjYEAAAA&_nc_gid=I914m6yDlCLnH_u3mAiigQ&_nc_tpa=Q5bMBQIwSwBdZec1R9OBDg0o9NVEhRm0bJV4hCSzs74zXDWJ60fsRZ7gDLDcXMe6ecCT2KCvSaprvXHcSw&oh=00_AQHMnLavcuTu-T-fAOm_GThrn0cAH2kkwXOT4HkaML6Ixg&oe=6A8EFBF7",
+      "source": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.30808-6/782094705_1370127931958644_4418822389401895412_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=9e60e4&_nc_ohc=UkJyCwJZygsQ7kNvwECvAeK&_nc_oc=AdpBRZnqQleTloZTzR1iU0uw2lBV79qAB6gc3vQSGyJybv-QRKgzpxz--xmzJhnk5Yw&_nc_zt=23&_nc_ht=scontent-ord5-2.xx&edm=ABTKTjYEAAAA&_nc_gid=vF3ch67ggFM1lkpgi8bwbQ&_nc_tpa=Q5bMBQJKjRCQCS6MiUgKirhBBS8cD9X3jyPNuIBz3ujXgrY2yHuPJm0u6nus9n8xpg8UooJ92j14HT3zcg&oh=00_AQE94Hl77R8lH8dHEZWucivJ7bfrQIr8wXZ2Huq7-BIU_A&oe=6A904D77",
       "id": "1370127928625311"
     },
     "place": {
@@ -60,7 +43,7 @@
     "cover": {
       "offset_x": 50,
       "offset_y": 45,
-      "source": "https://scontent-sjc3-1.xx.fbcdn.net/v/t39.30808-6/780374514_1370129301958507_2914600968449883446_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=9e60e4&_nc_ohc=ATPONHCiXxsQ7kNvwH4Jaug&_nc_oc=AdpD5kMj9p7Kvf5uVnDVdRCNAWWHoAj6w-k3poAttKURxDigjoxktnOOecqlEqo5wDE&_nc_zt=23&_nc_ht=scontent-sjc3-1.xx&edm=ABTKTjYEAAAA&_nc_gid=I914m6yDlCLnH_u3mAiigQ&_nc_tpa=Q5bMBQLTK92_9dLaJVUsPWEgFSpC3KlvRReRvrAeGERLSwdD_JQZK97t6YyBAdy0c7NrJqlAgHAAkWSnVw&oh=00_AQFPOHKMhXVLLDWWFxyc5Ar_-4TtgZe4v6pfxNurWmZDZg&oe=6A8F0C25",
+      "source": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.30808-6/780374514_1370129301958507_2914600968449883446_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=9e60e4&_nc_ohc=ATPONHCiXxsQ7kNvwF7Iyei&_nc_oc=AdoeepeXa6aHQs-ciHs-6PaiLgkR_76rZAiKclIZy1g1zV0-kywMjLxfQeQ38-OCcA4&_nc_zt=23&_nc_ht=scontent-ord5-2.xx&edm=ABTKTjYEAAAA&_nc_gid=vF3ch67ggFM1lkpgi8bwbQ&_nc_tpa=Q5bMBQJUgS9gS1Jphu9StcFHF-rW1YilAqrIPXVoCyJdQYNhjAkXDDFKUJl4Xyc47iKvMmsDhpXNQGWOvQ&oh=00_AQEmRnvnbR1vYKXpeh1dmtyd3f0RR5D_xbJj0x5ZZgAH5g&oe=6A905DA5",
       "id": "1370129298625174"
     },
     "place": {
