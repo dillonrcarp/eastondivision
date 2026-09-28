@@ -407,11 +407,11 @@ section { max-width: 1120px; margin: 0 auto; padding: 100px 48px; }
 .epk-grid { display: grid; grid-template-columns: 1.3fr 1fr; gap: 72px; align-items: start; }
 .epk-body p:not(.section-eye):not(.section-rule) { font-family: 'Playfair Display', serif; font-size: 1rem; line-height: 1.85; color: var(--muted); margin-bottom: 20px; }
 .epk-files { margin-top: 28px; }
-.epk-file { display: flex; align-items: center; justify-content: space-between; padding: 15px 0; border-bottom: 1px solid rgba(255,255,255,0.05); }
+.epk-file { display: flex; align-items: center; justify-content: space-between; gap: 16px; padding: 15px 0; border-bottom: 1px solid rgba(255,255,255,0.05); }
 .epk-file:first-child { border-top: 1px solid rgba(255,255,255,0.05); }
 .epk-fname { font-size: 0.8rem; letter-spacing: 0.1em; color: var(--cream); }
 .epk-ftype { font-size: 0.6rem; letter-spacing: 0.2em; text-transform: uppercase; color: var(--teal); opacity: 0.6; margin-top: 3px; }
-.epk-dl { font-size: 0.6rem; letter-spacing: 0.2em; text-transform: uppercase; text-decoration: none; color: var(--yellow); border: 1px solid rgba(232,192,64,0.35); padding: 7px 16px; transition: background 0.15s, color 0.15s; }
+.epk-dl { flex-shrink: 0; font-size: 0.6rem; letter-spacing: 0.2em; text-transform: uppercase; text-decoration: none; color: var(--yellow); border: 1px solid rgba(232,192,64,0.35); padding: 7px 16px; transition: background 0.15s, color 0.15s; }
 .epk-dl:hover { background: var(--yellow); color: var(--darker); }
 .epk-stats { display: grid; grid-template-columns: 1fr 1fr; gap: 2px; }
 .epk-stat { padding: 22px 18px; border: 1px solid rgba(91,200,192,0.12); background: rgba(91,200,192,0.03); }
